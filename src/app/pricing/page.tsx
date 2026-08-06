@@ -6,9 +6,9 @@ export const metadata = {
 export default function PricingPage() {
   return (
     <div className="bg-brand-white text-brand-black min-h-screen">
-      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Transparent Pricing</h1>
-        <p className="text-xl text-brand-black/70 max-w-2xl mx-auto mb-16">
+      <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 tracking-tight">Transparent Pricing</h1>
+        <p className="text-base sm:text-lg md:text-xl text-brand-black/70 max-w-2xl mx-auto mb-10 md:mb-16 leading-relaxed">
           Compare our packages below. All tiers include our standard of excellence and end-to-end project management. Rates vary based on location and specific material choices. (Minimum area 1500 sqft).
         </p>
 

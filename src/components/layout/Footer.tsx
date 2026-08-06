@@ -10,12 +10,11 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="mb-4 inline-block">
               <Image
-                src="/buildo-logo-transparent.png"
+                src="/buildo-logo-white.svg"
                 alt="Buildo"
                 width={110}
                 height={44}
                 className="h-10 w-auto object-contain"
-                style={{ filter: "brightness(0) invert(1)" }}
               />
             </Link>
             <p className="text-brand-white/60 mb-6 text-sm">
