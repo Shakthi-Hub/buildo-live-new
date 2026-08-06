@@ -53,7 +53,7 @@ export default function Hero() {
       <div className="flex-1"></div>
 
       {/* QUOTE AREA: Placed under the founders image. Pushed 25% down on mobile. */}
-      <div className="w-full flex justify-center text-center px-4 pb-12 md:pb-6 pt-[75vh] md:pt-8 relative z-20">
+      <div className="w-full flex justify-center text-center px-8 sm:px-12 md:px-4 pb-28 md:pb-6 pt-[72vh] md:pt-8 relative z-20">
         <motion.div
           className="max-w-3xl mx-auto"
           initial={{ opacity: 0, y: 40 }}
@@ -61,7 +61,7 @@ export default function Hero() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-brand-black font-medium italic leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-3xl lg:text-4xl text-brand-black font-medium italic leading-relaxed">
             &quot;Creating elegant spaces that combine creativity, functionality and quality.&quot;
           </p>
         </motion.div>
