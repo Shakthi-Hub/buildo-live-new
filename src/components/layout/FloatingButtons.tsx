@@ -6,7 +6,7 @@ export default function FloatingButtons() {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col space-y-4">
       <a
-        href="tel:9080050005"
+        href="tel:+919080050005"
         className="bg-brand-black text-brand-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center border border-brand-white/10"
         aria-label="Call Us"
       >
@@ -14,8 +14,6 @@ export default function FloatingButtons() {
       </a>
       <a
         href="https://wa.me/919080050005"
-        target="_blank"
-        rel="noopener noreferrer"
         className="bg-[#25D366] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center"
         aria-label="WhatsApp Us"
       >

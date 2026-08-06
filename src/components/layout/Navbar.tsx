@@ -154,7 +154,7 @@ export default function Navbar() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: "100%" }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
-              className="fixed inset-y-0 right-0 z-[100] w-full max-w-sm bg-[#ed890e] shadow-2xl flex flex-col justify-center items-center"
+              className="fixed inset-y-0 right-0 z-[100] w-full max-w-sm bg-[#fcfbfa] shadow-2xl flex flex-col justify-center items-center"
             >
               <button
                 className="absolute top-8 right-8 text-brand-black hover:opacity-70 transition-opacity"
@@ -173,7 +173,7 @@ export default function Navbar() {
                     <Link
                       key={item}
                       href={href}
-                      className="hover:text-white transition-colors w-full border-b border-black/10 pb-4"
+                      className="hover:text-brand-orange transition-colors w-full border-b border-black/10 pb-4"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item}
