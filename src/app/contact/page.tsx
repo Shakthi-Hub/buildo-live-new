@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 export const metadata = {
   title: "Contact Us | Buildo",
@@ -21,33 +22,7 @@ export default function ContactPage() {
           {/* Contact Form */}
           <div className="bg-white p-10 rounded-3xl shadow-sm border border-brand-black/5">
             <h2 className="text-3xl font-bold mb-8">Send an Enquiry</h2>
-            <form action={process.env.NEXT_PUBLIC_FORMSPREE_URL || "https://formspree.io/f/placeholder"} method="POST" className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-brand-black/70 mb-2">Name</label>
-                <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-xl border border-brand-black/20 focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none transition-colors" />
-              </div>
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-brand-black/70 mb-2">Phone Number</label>
-                <input type="tel" id="phone" name="phone" required className="w-full px-4 py-3 rounded-xl border border-brand-black/20 focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none transition-colors" />
-              </div>
-              <div>
-                <label htmlFor="projectType" className="block text-sm font-medium text-brand-black/70 mb-2">Project Type</label>
-                <select id="projectType" name="projectType" required className="w-full px-4 py-3 rounded-xl border border-brand-black/20 focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none transition-colors bg-white">
-                  <option value="">Select a type...</option>
-                  <option value="Residential Construction">Residential Construction</option>
-                  <option value="Commercial Construction">Commercial Construction</option>
-                  <option value="Interior Design">Interior Design</option>
-                  <option value="Architectural Design Only">Architectural Design Only</option>
-                </select>
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-brand-black/70 mb-2">Message (Optional)</label>
-                <textarea id="message" name="message" rows={4} className="w-full px-4 py-3 rounded-xl border border-brand-black/20 focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none transition-colors"></textarea>
-              </div>
-              <button type="submit" className="w-full bg-brand-orange text-brand-black font-bold py-4 rounded-xl hover:bg-orange-400 transition-colors">
-                Submit Enquiry
-              </button>
-            </form>
+            <ContactForm />
           </div>
 
           {/* Contact Details & Map */}

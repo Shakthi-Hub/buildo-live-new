@@ -146,5 +146,25 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919303/3_pu858l.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919390/6_fgeemy.jpg"
     ]
-  }
+  },
+   {
+    id: 6,
+    title: "Peacock Salon",
+    location: "Madurai",
+    plotSize: "Premium",
+    builtUpArea: "Commercial",
+    year: "2023",
+    category: "Salon",
+    description: "Peacock Salon in Madurai.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919350/4_xwuorz.jpg",
+    slug: "peacock-salon-madurai",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919365/8_u81khw.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919303/1_o0mldk.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919372/9_tvbror.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919352/5_zkiuc6.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919303/3_pu858l.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919390/6_fgeemy.jpg"
+    ]
+  },
 ];
