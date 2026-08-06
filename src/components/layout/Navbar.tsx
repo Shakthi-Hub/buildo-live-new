@@ -154,7 +154,8 @@ export default function Navbar() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: "100%" }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
-              className="fixed inset-y-0 right-0 z-[100] w-full max-w-sm bg-[#fc8803]/40 backdrop-blur-md shadow-2xl flex flex-col justify-center items-center"
+              className="fixed inset-y-0 right-0 z-[100] w-full max-w-sm shadow-2xl flex flex-col justify-center items-center"
+              style={{ backgroundColor: 'rgba(252, 136, 3, 0.4)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' }}
             >
               <button
                 className="absolute top-8 right-8 text-brand-black hover:opacity-70 transition-opacity"
