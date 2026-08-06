@@ -8,34 +8,15 @@ export const projectsData = [
     year: "2023",
     category: "Salon",
     description: "Premium commercial space designed for Concept salon.",
-    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917654/IMG_6605_krhsip.jpg",
-    slug: "aathur-salon",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786004151/IMG_6606_ygzvoe.jpg",
+    slug: "concept-salon",
     images: [
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916167/IMG_6577_yjxhgx.jpg", // Hero image (same as thumbnail usually)
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785918013/IMG_6598_giejtj.jpg", // Replace these with Cloudinary links later
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917991/IMG_6594_ssihmn.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785918061/IMG_6595_uxfynf.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917661/IMG_6609_msn1sj.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917635/IMG_6610_aasmym.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917619/IMG_6607_c5mext.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917508/IMG_6581_r376je.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917462/IMG_6603_ogpf32.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917415/IMG_6602_d81qrw.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917369/IMG_6601_pacoi1.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917314/IMG_6600_scedh0.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785917256/IMG_6593_cbz3aq.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916917/IMG_6586_ujgajt.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916819/IMG_6592_kwwfko.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916729/IMG_6611_vmocq1.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916650/IMG_6608_xiecou.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916617/IMG_6599_kxaxue.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916479/IMG_6591_qcvak2.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916451/IMG_6579_zg2jo5.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916398/IMG_6583_izuvhn.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916247/IMG_6585_elgvqv.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916191/IMG_6580_i4cbgy.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916155/IMG_6582_zgofh4.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916106/IMG_6576_zrkvib.jpg"
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785916167/IMG_6577_yjxhgx.jpg",
+       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786004150/IMG_6602_ubcbed.jpg",
+       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786004150/IMG_6610_bcmscr.jpg",
+       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786004150/IMG_6608_yqte0g.jpg",
+       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786004150/IMG_6599_yrdyrs.jpg"
+      
     ]
   },
   {
