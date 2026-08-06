@@ -45,27 +45,31 @@ export const projectsData = [
     year: "2023",
     category: "Salon",
     description: "Modern interior design for Toni & Guy Karaikal branch, focusing on premium customer experience.",
-    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909245/freecompress-IMG_2755_ut8svb.jpg", // Replace with your chosen Cloudinary thumbnail URL
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006796/IMG_2755_ao17w2.jpg", // Replace with your chosen Cloudinary thumbnail URL
     slug: "karaikal-toni-guy",
     images: [
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909303/freecompress-IMG_2768_lrk6qw.jpg", // Main Hero Image (PASTE URL HERE)
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909349/freecompress-IMG_2771_xi71q1.jpg", // Gallery Image 1 (PASTE URL HERE)
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909376/freecompress-IMG_2773_blqmx6.jpg", // Gallery Image 2 (PASTE URL HERE)
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909333/freecompress-IMG_2769_tpik5o.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909332/freecompress-IMG_2772_jzfxgb.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909301/freecompress-IMG_2767_npinzh.jpg", // Gallery Image 3 (PASTE URL HERE)
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909298/freecompress-IMG_2765_dav80v.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909298/freecompress-IMG_2764_zugxim.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909290/freecompress-IMG_2760_ny49k5.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909277/freecompress-IMG_2759_a7lbf3.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909276/freecompress-IMG_2761_ertaj5.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909264/freecompress-IMG_2758_roqceq.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909256/freecompress-IMG_2757_lxp6ds.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909255/freecompress-IMG_2756_kvq4p6.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909240/freecompress-IMG_2754_fkixtf.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909231/freecompress-IMG_2753_i1lf2p.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909229/freecompress-IMG_2751_pbur9u.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785909229/freecompress-IMG_2752_idyrgn.jpg"
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006816/IMG_2768_qfspzd.jpg", // Main Hero Image (PASTE URL HERE)
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006803/IMG_2761_bsqjbg.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006822/IMG_2774_uz7ms7.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006821/IMG_2773_fc9qik.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006817/IMG_2769_vy1l2m.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006819/IMG_2772_neimcw.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006815/IMG_2767_z01sig.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006813/IMG_2766_znzw2h.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006811/IMG_2764_xpppsl.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006812/IMG_2765_dsbxmf.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006805/IMG_2763_do5en4.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006804/IMG_2762_ndnn8t.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006818/IMG_2771_jrqoap.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006802/IMG_2760_htbcaz.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006801/IMG_2759_dks0vc.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006799/IMG_2758_rl4nb9.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006798/IMG_2757_wwhn2o.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006797/IMG_2756_ehsvnw.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006794/IMG_2754_gneafp.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006794/IMG_2753_ruavop.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006793/IMG_2752_ruoohj.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006793/IMG_2751_ew5u4f.jpg"
     ]
   },
   {
@@ -77,26 +81,24 @@ export const projectsData = [
     year: "2022",
     category: "Salon",
     description: "Toni & Guy Madurai branch.",
-    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910382/IMG_0591_formphotoeditor.com_roiner.jpg",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006862/IMG_0591_bzczeh.jpg",
     slug: "madurai-toni-guy",
     images: [
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910484/IMG_0595_formphotoeditor.com_sl97xb.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910485/IMG_0596_formphotoeditor.com_hbs08e.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910484/IMG_0595_formphotoeditor.com_sl97xb.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910478/IMG_0592_formphotoeditor.com_akulov.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910453/IMG_0599_formphotoeditor.com_bxc31l.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910417/IMG_0600_formphotoeditor.com_n4m92z.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910385/IMG_0598_formphotoeditor.com_rkwanw.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910382/IMG_0591_formphotoeditor.com_roiner.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910365/IMG_0597_formphotoeditor.com_wtbaby.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910335/IMG_0594_formphotoeditor.com_ohkwwo.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910326/IMG_0588_formphotoeditor.com_gbrejx.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910323/IMG_0583_formphotoeditor.com_zqpuxx.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910304/IMG_0593_formphotoeditor.com_mtugal.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910271/IMG_0590_formphotoeditor.com_l4x4ua.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910239/IMG_0589_formphotoeditor.com_wi8jvr.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910212/IMG_0585_formphotoeditor.com_auh1d7.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785910190/IMG_0584_formphotoeditor.com_yzrjay.jpg"
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006867/IMG_0595_cghbgt.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006865/IMG_0593_yyuovz.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006871/IMG_0598_wqrd31.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006868/IMG_0596_kip5sh.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006872/IMG_0599_dvsawd.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006870/IMG_0597_avje9l.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006863/IMG_0592_h1nxmy.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006862/IMG_0591_bzczeh.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006860/IMG_0589_lb9wxb.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006858/IMG_0588_mbxhyj.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006857/IMG_0587_ckjvhw.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006856/IMG_0586_dxmn4t.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006855/IMG_0585_etmvea.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006853/IMG_0584_ceclwk.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006852/IMG_0583_sv2uq4.jpg"
       
     ]
   },
@@ -109,20 +111,20 @@ export const projectsData = [
     year: "2023",
     category: "Home",
     description: "Madakulam House commercial project.",
-    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1785918526/IMG_8124_u8k83h.jpg",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006904/IMG_8124_dzzgn7.jpg",
     slug: "madakulam-house",
     images: [
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919081/IMG_8126_eythj9.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919146/IMG_8130_rz7kgd.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919138/IMG_8138_gkbonw.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919128/IMG_8135_adieo7.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919117/IMG_8128_trreu8.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919110/IMG_8136_z2a3s4.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919094/IMG_8129_gglbkx.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919081/IMG_8127_dnkm0i.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919059/IMG_8134_dmra72.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785918650/IMG_8125_sx6aro.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785918539/IMG_8123_tigi2u.jpg"
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006907/IMG_8126_kxilav.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006905/IMG_8125_ey8t7q.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006903/IMG_8123_b7mpkp.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006908/IMG_8127_ur2pos.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006909/IMG_8128_vueyi9.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006911/IMG_8129_cw774z.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006914/IMG_8134_eyik0h.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006915/IMG_8135_upl9i0.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006916/IMG_8136_fnlhcc.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006918/IMG_8138_hpdzj2.jpg"
+      
     ]
   },
   {
@@ -134,35 +136,147 @@ export const projectsData = [
     year: "2023",
     category: "Salon",
     description: "Peacock Salon in Madurai.",
-    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919350/4_xwuorz.jpg",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006948/4_gtwyhw.jpg",
     slug: "peacock-salon-madurai",
     images: [
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919365/8_u81khw.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919303/1_o0mldk.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919372/9_tvbror.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919352/5_zkiuc6.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919303/3_pu858l.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919390/6_fgeemy.jpg"
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006952/7_wmfu3f.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006954/8_mjgwvg.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006955/9_eqzemw.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006951/6_vlyrgc.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006945/2_bwods9.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006944/1_rsdnsa.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006947/3_xdckf7.jpg"
+     
     ]
   },
    {
     id: 6,
-    title: "Peacock Salon",
-    location: "Madurai",
+    title: "Glamglow Salon",
+    location: "Namakkal",
     plotSize: "Premium",
     builtUpArea: "Commercial",
     year: "2023",
     category: "Salon",
-    description: "Peacock Salon in Madurai.",
-    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919350/4_xwuorz.jpg",
-    slug: "peacock-salon-madurai",
+    description: "Glamglow Salon in Namakkal.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006984/IMG_4050_nadsq9.jpg",
+    slug: "glamglow-salon-namakkal",
     images: [
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919365/8_u81khw.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919303/1_o0mldk.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919372/9_tvbror.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919352/5_zkiuc6.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919303/3_pu858l.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1785919390/6_fgeemy.jpg"
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006981/IMG_4048_gvfev4.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006989/IMG_4054_epq2dr.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006987/IMG_4052_q91qz9.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006985/IMG_4051_hupkc7.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006983/IMG_4049_ghmah1.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006984/IMG_4050_nadsq9.jpg"
+    ]
+  },
+   {
+    id: 7,
+    title: "Aathur salon",
+    location: "Aathur",
+    plotSize: "Premium",
+    builtUpArea: "Commercial",
+    year: "2024",
+    category: "Salon",
+    description: "Aathur salon in Aathur.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007014/IMG_1284_fsd4tj.jpg",
+    slug: "aathur-salon",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007014/IMG_1284_fsd4tj.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007012/IMG_1283_v2wstz.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007011/AB_iwhkbv.jpg"
+     
+    ]
+  },
+  {
+    id: 8,
+    title: "Chennai Ayapakkam",
+    location: "Chennai",
+    plotSize: "1200",
+    builtUpArea: "1800",
+    year: "2024",
+    category: "Villa",
+    description: "Chennai Ayapakkam Villa.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007039/IMG_1335.JPG_zswusx.jpg",
+    slug: "chennai-ayapakkam-villa",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007039/IMG_1335.JPG_zswusx.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007039/IMG_1335.JPG_zswusx.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007041/IMG_1338.JPG_sgutaz.jpg"
+     
+    ]
+  },
+   {
+    id: 9,
+    title: "Chennai Kolathur",
+    location: "Chennai",
+    plotSize: "1200",
+    builtUpArea: "1800",
+    year: "2024",
+    category: "Villa",
+    description: "Chennai kolathur Villa.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007081/IMG_7926.JPG_zkmwc2.jpg",
+    slug: "chennai-kolathur",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007081/IMG_7926.JPG_zkmwc2.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007079/IMG_2164.JPG_lcxd0i.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007078/IMG_2163.JPG_e2ez3w.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007076/IMG_2162.JPG_k4uxgl.jpg"
+     
+    ]
+  },
+    {
+    id: 10,
+    title: "Nehru Nagar , madurai",
+    location: "Madurai",
+    plotSize: "1200",
+    builtUpArea: "1800",
+    year: "2024",
+    category: "Villa",
+    description: "Nehru Nagar , madurai.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007106/IMG_7921.JPG_vgexdr.jpg",
+    slug: "nehru-nagar",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007106/IMG_7921.JPG_vgexdr.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007106/IMG_7921.JPG_vgexdr.jpg"
+     
+    ]
+  },
+  {
+    id: 11,
+    title: "Ramnad",
+    location: "Ramanathapuram",
+    plotSize: "1200",
+    builtUpArea: "1800",
+    year: "2024",
+    category: "Villa",
+    description: "Ramnad.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007127/IMG_2736.JPG_kxinob.jpg",
+    slug: "nehru-nagar",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007127/IMG_2736.JPG_kxinob.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007129/IMG_2737.JPG_epd7rb.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007126/IMG_2735.JPG_pjx6o3.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007127/IMG_2736.JPG_kxinob.jpg"
+     
+    ]
+  },
+  {
+    id: 12,
+    title: "Royal Garden",
+    location: "Madurai",
+    plotSize: "1200",
+    builtUpArea: "1800",
+    year: "2024",
+    category: "Villa",
+    description: "Madurai.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007151/IMG_2152.JPG_vslds9.jpg",
+    slug: "royal-garden",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007155/IMG_2154.JPG_rylq4z.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007153/IMG_2153.JPG_xts7tm.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007155/IMG_2154.JPG_rylq4z.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007153/IMG_2153.JPG_xts7tm.jpg"
+     
     ]
   },
 ];
