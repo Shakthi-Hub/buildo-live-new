@@ -149,12 +149,13 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             />
 
+            {/* Desktop Menu (slides from right) */}
             <motion.div
               initial={{ opacity: 0, x: "100%" }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: "100%" }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
-              className="fixed inset-y-0 right-0 z-[100] w-full max-w-sm shadow-2xl flex flex-col justify-center items-center"
+              className="hidden md:flex fixed inset-y-0 right-0 z-[100] w-full max-w-sm shadow-2xl flex-col justify-center items-center rounded-l-3xl"
               style={{ backgroundColor: 'rgba(252, 136, 3, 0.4)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' }}
             >
               <button
@@ -164,7 +165,7 @@ export default function Navbar() {
                 <X size={40} />
               </button>
 
-              <div className="flex flex-col items-start space-y-8 text-2xl font-black uppercase tracking-widest text-brand-black w-full px-12">
+              <div className="flex flex-col items-start space-y-8 text-2xl font-semibold tracking-wide text-brand-black w-full px-12">
                 {navLinks.map((item) => {
                   const href =
                     item === "Home" ? "/" :
@@ -175,6 +176,42 @@ export default function Navbar() {
                       key={item}
                       href={href}
                       className="hover:text-white transition-colors w-full border-b border-black/10 pb-4"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {item}
+                    </Link>
+                  );
+                })}
+              </div>
+            </motion.div>
+
+            {/* Mobile Menu (slides from top, takes partial height) */}
+            <motion.div
+              initial={{ opacity: 0, y: "-100%" }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: "-100%" }}
+              transition={{ duration: 0.4, ease: "easeInOut" }}
+              className="md:hidden fixed top-0 left-0 right-0 z-[100] shadow-2xl flex flex-col justify-start items-center pt-15 pb-6 rounded-b-3xl"
+              style={{ backgroundColor: 'rgba(252, 136, 3, 0.6)', backdropFilter: 'blur(30px)', WebkitBackdropFilter: 'blur(8px)' }}
+            >
+              <button
+                className="absolute top-5 right-5 text-brand-black hover:opacity-70 transition-opacity"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <X size={28} />
+              </button>
+
+              <div className="flex flex-col items-center space-y-4 text-lg font-semibold tracking-wide text-brand-black w-full px-8">
+                {navLinks.map((item) => {
+                  const href =
+                    item === "Home" ? "/" :
+                    item === "About Us" ? "/about" :
+                    `/${item.toLowerCase()}`;
+                  return (
+                    <Link
+                      key={item}
+                      href={href}
+                      className="hover:text-white transition-colors w-full text-center border-b border-black/10 pb-2"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item}

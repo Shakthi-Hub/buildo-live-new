@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Concept salon",
+    title: "Concepts salon",
     location: "Chennai",
     plotSize: "Premium",
     builtUpArea: "Commercial",
@@ -28,12 +28,10 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006624/IMG_6598_rjffhw.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006626/IMG_6600_q8hea5.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006627/IMG_6601_nbqiiu.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006627/IMG_6601_nbqiiu.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006628/IMG_6603_u52htd.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006632/IMG_6608_uhn5qw.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006611/IMG_6576_gdkr4s.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006613/IMG_6578_upyq6d.jpg"
-      
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006613/IMG_6578_upyq6d.jpg"     
     ]
   },
   {
@@ -98,8 +96,7 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006856/IMG_0586_dxmn4t.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006855/IMG_0585_etmvea.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006853/IMG_0584_ceclwk.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006852/IMG_0583_sv2uq4.jpg"
-      
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006852/IMG_0583_sv2uq4.jpg"      
     ]
   },
   {
@@ -123,8 +120,7 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006914/IMG_8134_eyik0h.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006915/IMG_8135_upl9i0.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006916/IMG_8136_fnlhcc.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006918/IMG_8138_hpdzj2.jpg"
-      
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006918/IMG_8138_hpdzj2.jpg"    
     ]
   },
   {
@@ -146,7 +142,6 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006945/2_bwods9.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006944/1_rsdnsa.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786006947/3_xdckf7.jpg"
-     
     ]
   },
    {
@@ -184,7 +179,6 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007014/IMG_1284_fsd4tj.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007012/IMG_1283_v2wstz.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007011/AB_iwhkbv.jpg"
-     
     ]
   },
   {
@@ -200,9 +194,7 @@ export const projectsData = [
     slug: "chennai-ayapakkam-villa",
     images: [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007039/IMG_1335.JPG_zswusx.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007039/IMG_1335.JPG_zswusx.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007041/IMG_1338.JPG_sgutaz.jpg"
-     
     ]
   },
    {
@@ -221,7 +213,6 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007079/IMG_2164.JPG_lcxd0i.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007078/IMG_2163.JPG_e2ez3w.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007076/IMG_2162.JPG_k4uxgl.jpg"
-     
     ]
   },
     {
@@ -236,9 +227,7 @@ export const projectsData = [
     thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007106/IMG_7921.JPG_vgexdr.jpg",
     slug: "nehru-nagar",
     images: [
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007106/IMG_7921.JPG_vgexdr.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007106/IMG_7921.JPG_vgexdr.jpg"
-     
     ]
   },
   {
@@ -251,13 +240,11 @@ export const projectsData = [
     category: "Villa",
     description: "Ramnad.",
     thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007127/IMG_2736.JPG_kxinob.jpg",
-    slug: "nehru-nagar",
+    slug: "ramnad",
     images: [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007127/IMG_2736.JPG_kxinob.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007129/IMG_2737.JPG_epd7rb.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007126/IMG_2735.JPG_pjx6o3.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007127/IMG_2736.JPG_kxinob.jpg"
-     
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007126/IMG_2735.JPG_pjx6o3.jpg"
     ]
   },
   {
@@ -273,10 +260,7 @@ export const projectsData = [
     slug: "royal-garden",
     images: [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007155/IMG_2154.JPG_rylq4z.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007153/IMG_2153.JPG_xts7tm.jpg",
-      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007155/IMG_2154.JPG_rylq4z.jpg",
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007153/IMG_2153.JPG_xts7tm.jpg"
-     
     ]
   },
 ];
