@@ -24,6 +24,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${inter.variable} h-full antialiased scroll-smooth`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans selection:bg-brand-orange selection:text-white">
         <Navbar />

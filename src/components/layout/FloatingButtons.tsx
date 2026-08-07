@@ -1,9 +1,44 @@
 "use client";
 
-import { Phone } from "lucide-react";
+import { Phone, Play, Pause } from "lucide-react";
 import { motion } from "framer-motion";
+import { useState, useRef, useEffect } from "react";
 
 export default function FloatingButtons() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    // Initialize audio only on client side to avoid hydration mismatch
+    audioRef.current = new Audio('/bg-music.mp3');
+    audioRef.current.loop = true;
+    audioRef.current.volume = 0.6; // Set volume to 60%
+    
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  const togglePlay = async () => {
+    if (!audioRef.current) return;
+    
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
+      try {
+        await audioRef.current.play();
+        setIsPlaying(true);
+      } catch (e) {
+        console.error("Audio playback failed. Please check if the file exists and restart your dev server:", e);
+        setIsPlaying(false);
+      }
+    }
+  };
+
   return (
     <div className="fixed bottom-20 lg:bottom-28 left-0 z-50 flex flex-col space-y-2">
       <motion.a
@@ -42,6 +77,21 @@ export default function FloatingButtons() {
           <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
         </svg>
       </motion.a>
+      <motion.button
+        initial={{ x: -80 }}
+        animate={{ x: 0 }}
+        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.8 }}
+        whileHover={{ width: 82, backgroundColor: "#db7c0fff" }}
+        onClick={togglePlay}
+        className="bg-[#e39c4a] text-white w-[68px] h-12 rounded-r-2xl shadow-md flex items-center justify-center overflow-hidden origin-left will-change-auto lg:will-change-transform cursor-pointer"
+        aria-label="Play Music"
+      >
+        {isPlaying ? (
+          <Pause size={20} className="mr-1 shrink-0" />
+        ) : (
+          <Play size={20} className="mr-0.5 shrink-0" />
+        )}
+      </motion.button>
     </div>
   );
 }
