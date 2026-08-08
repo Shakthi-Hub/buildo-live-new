@@ -191,7 +191,7 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: "-100%" }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
-              className="md:hidden fixed top-0 left-0 right-0 z-[100] shadow-2xl flex flex-col justify-start items-center pt-15 pb-6 rounded-b-3xl"
+              className="md:hidden fixed top-0 left-0 right-0 z-[100] shadow-2xl flex flex-col justify-start items-center pt-12 pb-4 rounded-b-3xl"
               style={{ backgroundColor: 'rgba(252, 136, 3, 0.6)', backdropFilter: 'blur(30px)', WebkitBackdropFilter: 'blur(8px)' }}
             >
               <button
@@ -201,7 +201,7 @@ export default function Navbar() {
                 <X size={28} />
               </button>
 
-              <div className="flex flex-col items-center space-y-4 text-lg font-semibold tracking-wide text-brand-black w-full px-8">
+              <div className="flex flex-col items-center space-y-2 text-lg font-semibold tracking-wide text-brand-black w-full px-8">
                 {navLinks.map((item) => {
                   const href =
                     item === "Home" ? "/" :
@@ -211,7 +211,7 @@ export default function Navbar() {
                     <Link
                       key={item}
                       href={href}
-                      className="hover:text-white transition-colors w-full text-center border-b border-black/10 pb-2"
+                      className="hover:text-white transition-colors w-full text-center border-b border-black/10 pb-1"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item}
