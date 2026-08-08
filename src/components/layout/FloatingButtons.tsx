@@ -46,7 +46,7 @@ export default function FloatingButtons() {
         animate={{ x: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.5 }}
         whileHover={{ width: 82, backgroundColor: "#e27a03ff" }}
-        href="tel:+919080050005"
+        href="tel:+919500417217"
         className="bg-[#e39c4a] text-white w-[68px] h-12 rounded-r-2xl shadow-md flex items-center justify-center overflow-hidden origin-left will-change-auto lg:will-change-transform"
         aria-label="Call Us"
       >
@@ -57,7 +57,7 @@ export default function FloatingButtons() {
         animate={{ x: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.65 }}
         whileHover={{ width: 82, backgroundColor: "#db7c0fff" }}
-        href="https://wa.me/919080050005"
+        href="https://wa.me/919500417217"
         className="bg-[#e39c4a] text-white w-[68px] h-12 rounded-r-2xl shadow-md flex items-center justify-center overflow-hidden origin-left will-change-auto lg:will-change-transform"
         aria-label="WhatsApp Us"
       >

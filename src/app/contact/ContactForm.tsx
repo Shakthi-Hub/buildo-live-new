@@ -19,7 +19,7 @@ export default function ContactForm() {
 *Message:* ${message ? message : 'No message provided'}`;
 
     const encodedText = encodeURIComponent(text);
-    const whatsappUrl = `https://wa.me/919080050005?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/919500417217?text=${encodedText}`;
     
     window.open(whatsappUrl, '_blank');
   };
