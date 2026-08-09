@@ -80,20 +80,14 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                   <p className="font-semibold text-lg">{project.location}</p>
                 </li>
                 <li>
+                  <p className="text-brand-black/50 text-sm font-medium mb-1">Project Type</p>
+                  {/* @ts-ignore - Handle old and new data structure */}
+                  <p className="font-semibold text-lg">{project.projectType || (project.category === 'Salon' ? 'Salon Interior' : project.category)}</p>
+                </li>
+                <li>
                   <p className="text-brand-black/50 text-sm font-medium mb-1">Category</p>
-                  <p className="font-semibold text-lg">{project.category}</p>
-                </li>
-                <li>
-                  <p className="text-brand-black/50 text-sm font-medium mb-1">Plot Size</p>
-                  <p className="font-semibold text-lg">{project.plotSize}</p>
-                </li>
-                <li>
-                  <p className="text-brand-black/50 text-sm font-medium mb-1">Built-up Area</p>
-                  <p className="font-semibold text-lg">{project.builtUpArea}</p>
-                </li>
-                <li>
-                  <p className="text-brand-black/50 text-sm font-medium mb-1">Completion Year</p>
-                  <p className="font-semibold text-lg">{project.year}</p>
+                  {/* @ts-ignore - Handle old and new data structure */}
+                  <p className="font-semibold text-lg">{project.categoryLevel || (['Premium', 'Standard', 'Basic'].includes(project.plotSize) ? project.plotSize : 'Standard')}</p>
                 </li>
               </ul>
               

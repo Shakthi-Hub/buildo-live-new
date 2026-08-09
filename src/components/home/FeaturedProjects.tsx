@@ -48,11 +48,14 @@ export default function FeaturedProjects() {
                 </div>
                 
                 <div>
-                  <h3 className="text-2xl font-bold mb-2 group-hover:text-brand-orange transition-colors">{project.title}</h3>
-                  <p className="text-brand-black/60 mb-2 font-medium">{project.location}</p>
-                  <div className="flex space-x-6 text-sm text-brand-black/50">
-                    <span><strong className="text-brand-black/70">Plot:</strong> {project.plotSize}</span>
-                    <span><strong className="text-brand-black/70">Built-up:</strong> {project.builtUpArea}</span>
+                  <h3 className="text-2xl font-bold mb-1 group-hover:text-brand-orange transition-colors">{project.title}</h3>
+                  <p className="text-brand-black/60 mb-4 font-medium"><strong className="text-brand-black/80 font-semibold">Location:</strong> {project.location}</p>
+                  
+                  <div className="flex flex-col space-y-1 text-sm text-brand-black/60">
+                    {/* @ts-ignore */}
+                    <span><strong className="text-brand-black/80 font-semibold">Project Type:</strong> {project.projectType || (project.category === 'Salon' ? 'Salon Interior' : project.category)}</span>
+                    {/* @ts-ignore */}
+                    <span><strong className="text-brand-black/80 font-semibold">Category:</strong> {project.categoryLevel || (['Premium', 'Standard', 'Basic'].includes(project.plotSize) ? project.plotSize : 'Standard')}</span>
                   </div>
                 </div>
               </Link>

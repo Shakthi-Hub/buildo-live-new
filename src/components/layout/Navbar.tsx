@@ -43,9 +43,9 @@ const STICKY_LOGO   = "h-13 lg:h-18 w-auto object-contain object-left"; // Logo 
 const STICKY_HEIGHT = "h-12 lg:h-15";                                   // Sticky navbar height after scroll
 
 // 📍 ALIGNMENT & ICONS (Unlinked for independent control!):
-const LOGO_MARGIN_LEFT   = "ml-1 lg:ml-4";                    // 🔴 Use -ml-4, -ml-8, or -ml-12 to pull the invisible space off-screen
-const MENU_MARGIN_RIGHT  = "mr-2 lg:mr-6";                     // Move Menu Left/Right (e.g. mr-4 is spaced)
-const MENU_ICON          = "w-6 h-9 lg:w-9 lg:h-9";         // Menu icon size
+const LOGO_MARGIN_LEFT   = "ml-3 lg:ml-4";                    // 🔴 Use -ml-4, -ml-8, or -ml-12 to pull the invisible space off-screen
+const MENU_MARGIN_RIGHT  = "mr-4 lg:mr-6";                     // Move Menu Left/Right (e.g. mr-4 is spaced)
+const MENU_ICON          = "w-8 h-9 lg:w-9 lg:h-9";         // Menu icon size
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
