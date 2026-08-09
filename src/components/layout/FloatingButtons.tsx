@@ -77,6 +77,34 @@ export default function FloatingButtons() {
           <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
         </svg>
       </motion.a>
+      <motion.a
+        initial={{ x: -80 }}
+        animate={{ x: 0 }}
+        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.72 }}
+        whileHover={{ width: 82, backgroundColor: "#db7c0fff" }}
+        href="https://instagram.com/buildo.in"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-[#e39c4a] text-white w-[68px] h-12 rounded-r-2xl shadow-md flex items-center justify-center overflow-hidden origin-left will-change-auto lg:will-change-transform"
+        aria-label="Instagram"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="mr-1 shrink-0"
+        >
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </motion.a>
       <motion.button
         initial={{ x: -80 }}
         animate={{ x: 0 }}

@@ -46,16 +46,14 @@ export default function FeaturedProjects() {
                     </span>
                   </div>
                 </div>
-                
                 <div>
                   <h3 className="text-2xl font-bold mb-1 group-hover:text-brand-orange transition-colors">{project.title}</h3>
-                  <p className="text-brand-black/60 mb-4 font-medium"><strong className="text-brand-black/80 font-semibold">Location:</strong> {project.location}</p>
-                  
-                  <div className="flex flex-col space-y-1 text-sm text-brand-black/60">
+                  <div className="flex flex-col space-y-1.5 text-[15px] text-brand-black/70 mt-2">
+                    <span><strong className="text-brand-black font-semibold">Location:</strong> {project.location}</span>
                     {/* @ts-ignore */}
-                    <span><strong className="text-brand-black/80 font-semibold">Project Type:</strong> {project.projectType || (project.category === 'Salon' ? 'Salon Interior' : project.category)}</span>
+                    <span><strong className="text-brand-black font-semibold">Project Type:</strong> {project.projectType || (project.category === 'Salon' ? 'Salon Interior' : project.category)}</span>
                     {/* @ts-ignore */}
-                    <span><strong className="text-brand-black/80 font-semibold">Category:</strong> {project.categoryLevel || (['Premium', 'Standard', 'Basic'].includes(project.plotSize) ? project.plotSize : 'Standard')}</span>
+                    <span><strong className="text-brand-black font-semibold">Category:</strong> {project.categoryLevel || (['Premium', 'Standard', 'Basic'].includes(project.plotSize) ? project.plotSize : 'Standard')}</span>
                   </div>
                 </div>
               </Link>

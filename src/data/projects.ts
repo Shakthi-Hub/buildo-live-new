@@ -206,7 +206,7 @@ export const projectsData = [
     year: "2024",
     category: "Residential Building",
     description: "Chennai kolathur Villa.",
-    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007081/IMG_7926.JPG_zkmwc2.jpg",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007079/IMG_2164.JPG_lcxd0i.jpg",
     slug: "chennai-kolathur",
     images: [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786007081/IMG_7926.JPG_zkmwc2.jpg",
