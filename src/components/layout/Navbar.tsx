@@ -32,20 +32,20 @@ import { AnimatePresence, motion } from "framer-motion";
      h-28 = 112px (tall)
 */
 // 📍 BEFORE SCROLL (Home Screen Header):
-const LOGO_CLASS    = "h-32 lg:h-52 w-auto object-contain object-left"; // Logo size (Fixed invalid h-30 to h-32)
-const HERO_HEIGHT   = "h-24 lg:h-28";                                   // Header container height
+const LOGO_CLASS    = "h-13 lg:h-18 w-auto object-contain object-left"; // Logo size
+const HERO_HEIGHT   = "h-17 lg:h-24";                                   // Header container height
 
 
 
 
 // 📍 AFTER SCROLL (Sticky White Navbar):
-const STICKY_LOGO   = "h-28 lg:h-48 w-auto object-contain object-left"; // Logo size (Fixed invalid h-26 to h-28)
-const STICKY_HEIGHT = "h-16 lg:h-20";                                   // Sticky navbar height after scroll
+const STICKY_LOGO   = "h-13 lg:h-18 w-auto object-contain object-left"; // Logo size
+const STICKY_HEIGHT = "h-12 lg:h-15";                                   // Sticky navbar height after scroll
 
 // 📍 ALIGNMENT & ICONS (Unlinked for independent control!):
-const LOGO_MARGIN_LEFT   = "-ml-8 lg:ml-10";                    // 🔴 Use -ml-8, -ml-12, or -ml-16 to pull the invisible space off-screen
-const MENU_MARGIN_RIGHT  = "mr-7 lg:mr-10";                     // Move Menu Left/Right (e.g. mr-4 is spaced)
-const MENU_ICON          = "w-10 h-14 lg:w-10 lg:h-10";         // Menu icon size
+const LOGO_MARGIN_LEFT   = "ml-1 lg:ml-4";                    // 🔴 Use -ml-4, -ml-8, or -ml-12 to pull the invisible space off-screen
+const MENU_MARGIN_RIGHT  = "mr-2 lg:mr-6";                     // Move Menu Left/Right (e.g. mr-4 is spaced)
+const MENU_ICON          = "w-6 h-9 lg:w-9 lg:h-9";         // Menu icon size
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -106,7 +106,7 @@ export default function Navbar() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -100, opacity: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className="fixed top-0 left-0 right-0 z-50 bg-white/30 backdrop-blur-md shadow-xl border-b-0 border-gray-200"
+            className="fixed top-0 left-0 right-0 z-50 bg-brand-orange/30 backdrop-blur-md shadow-xl border-b-0 border-gray-200"
           >
             <div className="w-full">
               <div className={`flex justify-between items-center ${STICKY_HEIGHT}`}>

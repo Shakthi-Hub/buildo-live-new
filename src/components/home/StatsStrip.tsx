@@ -23,23 +23,28 @@ function AnimatedCounter({ end, suffix = "", duration = 2 }: { end: number, suff
     }
   }, [isInView, end, duration]);
 
-  return <span ref={ref}>{count}{suffix}</span>;
+  return (
+    <span ref={ref} className="relative inline-flex justify-center">
+      <span>{count}</span>
+      {suffix && <span className="absolute left-full">{suffix}</span>}
+    </span>
+  );
 }
 
 export default function StatsStrip() {
   return (
     <section className="bg-brand-black text-brand-white py-16 border-t border-brand-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-brand-white/20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8 text-center md:divide-x divide-brand-white/20">
           
-          <div className="pt-8 md:pt-0">
+          <div className="pb-8 md:pb-0 border-b border-brand-white/20 md:border-b-0">
             <h2 className="text-5xl md:text-6xl font-bold text-brand-orange mb-2">
               <AnimatedCounter end={58} suffix="+" />
             </h2>
             <p className="text-brand-white/70 text-lg uppercase tracking-wider font-medium">Projects Completed</p>
           </div>
           
-          <div className="pt-8 md:pt-0">
+          <div className="py-8 md:py-0 border-b border-brand-white/20 md:border-b-0">
             <h2 className="text-5xl md:text-6xl font-bold text-brand-orange mb-2">
               <AnimatedCounter end={14} suffix="+" />
             </h2>

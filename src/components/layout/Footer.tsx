@@ -10,11 +10,11 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="mb-4 inline-block">
               <Image
-                src="/buildo-logo-white.svg"
+                src="/buildo-logo-white.png"
                 alt="Buildo"
-                width={110}
-                height={44}
-                className="h-10 w-auto object-contain"
+                width={200}
+                height={80}
+                className="h-13 w-auto object-contain"
               />
             </Link>
             <p className="text-brand-white/60 mb-6 text-sm">

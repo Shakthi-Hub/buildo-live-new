@@ -98,7 +98,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
               </ul>
               
               <div className="mt-8 pt-6 border-t border-brand-black/10">
-                <a href="https://wa.me/919080050005" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-orange text-brand-black font-bold py-3 rounded-full hover:bg-orange-400 transition-colors">
+                <a href="https://wa.me/919500417217" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-orange text-brand-black font-bold py-3 rounded-full hover:bg-orange-400 transition-colors">
                   Enquire about similar project
                 </a>
               </div>

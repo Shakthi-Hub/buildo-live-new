@@ -7,7 +7,7 @@ const locations = [
   "Chennai",
   "Coimbatore",
   "Ramnad",
-  "Tiruttai",
+  "Thiruttani",
   "Salem",
   "Thiruchendur",
   "Trichy",
