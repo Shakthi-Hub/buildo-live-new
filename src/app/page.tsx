@@ -6,7 +6,7 @@ import PricingTeaser from "@/components/home/PricingTeaser";
 import YoutubeShorts from "@/components/home/YoutubeShorts";
 import TeamStrip from "@/components/home/TeamStrip";
 import Testimonials from "@/components/home/Testimonials";
-import InstagramCallout from "@/components/home/InstagramCallout";
+import ActiveLocations from "@/components/home/ActiveLocations";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <PricingTeaser />
       <TeamStrip />
       <Testimonials />
-      <InstagramCallout />
+      <ActiveLocations />
     </>
   );
 }

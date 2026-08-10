@@ -125,6 +125,33 @@ export const projectsData = [
   },
   {
     id: 5,
+    title: "Mr.Vicky Residence",
+    location: "Kadachanendal, Madurai",
+    plotSize: "Standard",
+    builtUpArea: "Residential building",
+    year: "2023",
+    category: "Residential Building",
+    description: "Mr.Vicky Residence in Madurai.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379873/IMG_6657.JPG_vksdc4.jpg",
+    slug: "mr-vicky-residence",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379880/IMG_6659.JPG_ytudlv.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379873/IMG_6657.JPG_vksdc4.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379910/IMG_6661.JPG_oryf2e.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379880/IMG_6659.JPG_ytudlv.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379903/IMG_6660.JPG_wmzd7j.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379933/IMG_6664.JPG_hqqzgm.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379944/IMG_6662.JPG_x2padz.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379959/IMG_6673.JPG_iurk16.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379974/IMG_6681.JPG_ksjqis.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379963/IMG_6672.JPG_gknry2.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379967/IMG_6680.JPG_hrec91.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379922/IMG_6663.JPG_awykx6.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379927/IMG_6668.JPG_csfq5y.jpg"
+    ]
+  },
+  {
+    id: 6,
     title: "Peacock Salon",
     location: "Kalavasal, Madurai",
     plotSize: "Standard",
@@ -145,7 +172,7 @@ export const projectsData = [
     ]
   },
    {
-    id: 6,
+    id: 7,
     title: "Glamglow Salon",
     location: "Paramathi Velur,Namakkal",
     plotSize: "Standard",
@@ -165,7 +192,7 @@ export const projectsData = [
     ]
   },
    {
-    id: 7,
+    id: 8,
     title: "Bright Salon",
     location: "Aathur, Thoothukudi",
     plotSize: "Basic",
@@ -182,7 +209,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     title: "Mr Aravind Residence",
     location: "Ayapakkam, Chennai",
     plotSize: "Standard",
@@ -198,7 +225,7 @@ export const projectsData = [
     ]
   },
    {
-    id: 9,
+    id: 10,
     title: "Mr Gopi Residence",
     location: "Kolathur, Chennai",
     plotSize: "Standard",
@@ -216,7 +243,7 @@ export const projectsData = [
     ]
   },
     {
-    id: 10,
+    id: 11,
     title: "Mr Girinath Residence",
     location: "Nehru Nagar, Madurai",
     plotSize: "Premium",
@@ -231,7 +258,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 11,
+    id: 12,
     title: "Mr Ameen Residence",
     location: "Ramnad",
     plotSize: "Standard",
@@ -248,7 +275,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 12,
+    id: 13,
     title: "Mr.Thatchina Moorthy Residence",
     location: "Madurai",
     plotSize: "Premium",

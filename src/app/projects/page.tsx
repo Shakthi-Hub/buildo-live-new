@@ -46,9 +46,9 @@ export default function ProjectsPage() {
                   <h3 className="text-xl font-bold mb-1 group-hover:text-brand-orange transition-colors">{project.title}</h3>
                   <div className="flex flex-col space-y-1.5 text-[15px] text-brand-black/70 mt-2">
                     <span><strong className="text-brand-black font-semibold">Location:</strong> {project.location}</span>
-                    {/* @ts-ignore */}
+                    {/* @ts-expect-error - Handle old and new data structure */}
                     <span><strong className="text-brand-black font-semibold">Project Type:</strong> {project.projectType || (project.category === 'Salon' ? 'Salon Interior' : project.category)}</span>
-                    {/* @ts-ignore */}
+                    {/* @ts-expect-error - Handle old and new data structure */}
                     <span><strong className="text-brand-black font-semibold">Category:</strong> {project.categoryLevel || (['Premium', 'Standard', 'Basic'].includes(project.plotSize) ? project.plotSize : 'Standard')}</span>
                   </div>
                 </div>

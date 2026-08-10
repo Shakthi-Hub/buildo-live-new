@@ -24,6 +24,55 @@ const testimonials = [
     location: "Thirunelveli",
     text: "Highly professional team. From the initial 3D visualization to the final handover, they were committed to quality. The Myanmar teak finish is exquisite.",
     rating: 5
+  },
+  {
+    id: 4,
+    name: "Toni & Guy Management",
+    location: "Karaikal",
+    text: "The modern interior design executed for our Karaikal branch perfectly captured the premium customer experience we wanted to offer. Buildo's team was exceptional.",
+    rating: 5
+  },
+  {
+    id: 5,
+    name: "Mr. Sriram",
+    location: "Madakulam, Madurai",
+    text: "From conceptualization to the final build, the team ensured our residential project was completed flawlessly. Their build quality is truly commendable.",
+    rating: 5
+  },
+  {
+    id: 6,
+    name: "Glamglow Salon",
+    location: "Namakkal",
+    text: "We wanted an inviting space for our new salon. Buildo delivered an incredible commercial interior that perfectly aligns with our brand identity. The detail is stunning.",
+    rating: 5
+  },
+  {
+    id: 7,
+    name: "Mr. Aravind",
+    location: "Ayapakkam, Chennai",
+    text: "Building our dream villa in Chennai was a smooth experience thanks to Buildo. They managed the entire 1800 sq.ft construction efficiently, keeping us updated at every stage.",
+    rating: 5
+  },
+  {
+    id: 8,
+    name: "Mr. Gopi",
+    location: "Kolathur, Chennai",
+    text: "Our villa project exceeded all expectations. The architectural finesse and material quality used by Buildo reflect their commitment to excellence. Highly recommended.",
+    rating: 5
+  },
+  {
+    id: 9,
+    name: "Mr. Ameen",
+    location: "Ramnad",
+    text: "Choosing Buildo for our residential project in Ramnad was the best decision. Their structural expertise and on-time delivery without compromising aesthetics really stood out.",
+    rating: 5
+  },
+  {
+    id: 10,
+    name: "Mr. Thatchina Moorthy",
+    location: "Madurai",
+    text: "Our premium residence project was handled with utmost professionalism. The architectural planning and flawless execution gave us exactly the luxurious home we envisioned.",
+    rating: 5
   }
 ];
 

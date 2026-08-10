@@ -46,16 +46,16 @@ export default function FloatingButtons() {
         animate={{ x: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.5 }}
         whileHover={{ width: 82, backgroundColor: "#e27a03ff" }}
-        href="tel:+919500417217"
+        href="tel:+919080050005"
         className="bg-[#e39c4a] text-white w-[68px] h-12 rounded-r-2xl shadow-md flex items-center justify-center overflow-hidden origin-left will-change-auto lg:will-change-transform"
-        aria-label="Call Us"
+        aria-label="Call Us (Primary)"
       >
         <Phone size={20} className="mr-1 shrink-0" />
       </motion.a>
       <motion.a
         initial={{ x: -80 }}
         animate={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.65 }}
+        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.57 }}
         whileHover={{ width: 82, backgroundColor: "#db7c0fff" }}
         href="https://wa.me/919500417217"
         className="bg-[#e39c4a] text-white w-[68px] h-12 rounded-r-2xl shadow-md flex items-center justify-center overflow-hidden origin-left will-change-auto lg:will-change-transform"
@@ -80,7 +80,7 @@ export default function FloatingButtons() {
       <motion.a
         initial={{ x: -80 }}
         animate={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.72 }}
+        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.65 }}
         whileHover={{ width: 82, backgroundColor: "#db7c0fff" }}
         href="https://instagram.com/buildo.in"
         target="_blank"
@@ -108,7 +108,7 @@ export default function FloatingButtons() {
       <motion.button
         initial={{ x: -80 }}
         animate={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.8 }}
+        transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.72 }}
         whileHover={{ width: 82, backgroundColor: "#db7c0fff" }}
         onClick={togglePlay}
         className="bg-[#e39c4a] text-white w-[68px] h-12 rounded-r-2xl shadow-md flex items-center justify-center overflow-hidden origin-left will-change-auto lg:will-change-transform cursor-pointer"

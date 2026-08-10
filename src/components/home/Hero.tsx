@@ -10,25 +10,97 @@ export default function Hero() {
       {/* BACKGROUND TEXT AREA (Solid style like prashantparmar.com) */}
       <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none overflow-hidden pb-20">
         <motion.div 
-          className="absolute top-[55%] w-full text-center md:w-auto md:top-[54%] md:bottom-auto md:left-auto md:right-12 lg:right-[10%] md:-translate-y-1/2 md:text-right"
+          className="absolute top-[55%] w-full text-center md:w-auto md:top-[54%] md:bottom-auto md:left-auto md:right-4 lg:right-[2%] md:-translate-y-1/2 md:text-right"
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[6vw] font-black text-brand-black uppercase tracking-widest break-words" style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.1)" }}>
-            Arwin  
-          </h1>
+          <div className="relative inline-block text-left md:text-right">
+            {/* Outline Text */}
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[6vw] font-black uppercase tracking-widest whitespace-nowrap" 
+                style={{ 
+                  fontFamily: "'Agrandir Grand Heavy', 'Agrandir Tight', sans-serif",
+                  WebkitTextStroke: "2px #0d0d0d", 
+                  color: "transparent",
+                  textShadow: "2px 2px 4px rgba(0,0,0,0.1)" 
+                }}>
+              Arwin  
+            </h1>
+            {/* Solid Text with looping left-to-right animation */}
+            <motion.h1 
+              className="absolute top-0 left-0 w-full text-4xl sm:text-5xl md:text-6xl lg:text-[6vw] font-black text-brand-black uppercase tracking-widest whitespace-nowrap"
+              style={{ 
+                fontFamily: "'Agrandir Grand Heavy', 'Agrandir Tight', sans-serif",
+                textShadow: "2px 2px 4px rgba(0,0,0,0.1)" 
+              }}
+              animate={{ 
+                clipPath: [
+                  "inset(0 100% 0 0)", 
+                  "inset(0 0 0 0)", 
+                  "inset(0 0 0 0)", 
+                  "inset(0 100% 0 0)", 
+                  "inset(0 100% 0 0)"
+                ] 
+              }}
+              transition={{ 
+                duration: 8, 
+                ease: "easeInOut", 
+                repeat: Infinity,
+                times: [0, 0.25, 0.5, 0.75, 1],
+                delay: 1 
+              }}
+            >
+              Arwin  
+            </motion.h1>
+          </div>
         </motion.div>
         
         <motion.div 
-          className="absolute top-[62%] w-full text-center md:w-auto md:top-[68%] md:bottom-auto md:right-12 lg:right-[10%] md:-translate-y-1/2 md:text-right"
+          className="absolute top-[62%] w-full text-center md:w-auto md:top-[68%] md:bottom-auto md:right-4 lg:right-[2%] md:-translate-y-1/2 md:text-right"
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[6vw] font-black text-brand-black uppercase tracking-widest break-words" style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.1)", lineHeight: "1.2" }}>
-            Hari Haran
-          </h1>
+          <div className="relative inline-block text-left md:text-right">
+            {/* Outline Text */}
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[6vw] font-black uppercase tracking-widest whitespace-nowrap" 
+                style={{ 
+                  fontFamily: "'Agrandir Grand Heavy', 'Agrandir Tight', sans-serif",
+                  WebkitTextStroke: "2px #0d0d0d", 
+                  color: "transparent",
+                  textShadow: "2px 2px 4px rgba(0,0,0,0.1)", 
+                  lineHeight: "1.2" 
+                }}>
+              Hari Haran
+            </h1>
+            {/* Solid Text with looping left-to-right animation */}
+            <motion.h1 
+              className="absolute top-0 left-0 w-full text-4xl sm:text-5xl md:text-6xl lg:text-[6vw] font-black text-brand-black uppercase tracking-widest whitespace-nowrap"
+              style={{ 
+                fontFamily: "'Agrandir Grand Heavy', 'Agrandir Tight', sans-serif",
+                textShadow: "2px 2px 4px rgba(0,0,0,0.1)", 
+                lineHeight: "1.2" 
+              }}
+              animate={{ 
+                clipPath: [
+                  "inset(0 100% 0 0)", 
+                  "inset(0 0 0 0)", 
+                  "inset(0 0 0 0)", 
+                  "inset(0 100% 0 0)", 
+                  "inset(0 100% 0 0)"
+                ] 
+              }}
+              transition={{ 
+                duration: 8, 
+                ease: "easeInOut", 
+                repeat: Infinity,
+                times: [0, 0.25, 0.5, 0.75, 1],
+                delay: 1 
+              }}
+            >
+              Hari Haran
+            </motion.h1>
+          </div>
         </motion.div>
       </div>
 
