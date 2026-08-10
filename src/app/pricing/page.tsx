@@ -51,157 +51,157 @@ export default function PricingPage() {
               {/* Structures */}
               <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Structures</td></tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Upto 3 Feet</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Upto 4 Feet</td>
-                <td className="p-6 text-center text-brand-black/80">Upto 5 Feet</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Basement Height<br/>Upto 3 Feet</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Basement Height<br/>Upto 4 Feet</td>
+                <td className="p-6 text-center text-brand-black/80">Basement Height<br/>Upto 5 Feet</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Upto 10 feet</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Upto 10 feet</td>
-                <td className="p-6 text-center text-brand-black/80">Upto 10 feet</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Ceiling Height<br/>Upto 10 feet</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Ceiling Height<br/>Upto 10 feet</td>
+                <td className="p-6 text-center text-brand-black/80">Ceiling Height<br/>Upto 10 feet</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">DSRM <br/><span className="text-sm opacity-75">(Equivalent Brand)</span></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">VIZAG <br/><span className="text-sm opacity-75">(Equivalent Brand)</span></td>
-                <td className="p-6 text-center text-brand-black/80">TATA & JSW <br/><span className="text-sm opacity-75">(Equivalent Brand)</span></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Steel : DSRM<br/><span className="text-sm opacity-75">( Equivalent Brand )</span></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Steel : VIZAG<br/><span className="text-sm opacity-75">( Equivalent Brand )</span></td>
+                <td className="p-6 text-center text-brand-black/80">Steel : TATA & JSW<br/><span className="text-sm opacity-75">( Equivalent Brand )</span></td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Chettinad <br/><span className="text-sm opacity-75">(Equivalent Brand)</span></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Ramco & Ultratech</td>
-                <td className="p-6 text-center text-brand-black/80">Dalmia & Ultratech</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Cement : Chettinad<br/><span className="text-sm opacity-75">( Equivalent Brand )</span></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Cement : Ramco &<br/>Ultratech</td>
+                <td className="p-6 text-center text-brand-black/80">Cement : Dalmia &<br/>Ultratech</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Hand Mould <br/><span className="text-sm opacity-75">(Red brick)</span></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Wirecut <br/><span className="text-sm opacity-75">(Red brick)</span></td>
-                <td className="p-6 text-center text-brand-black/80">Wirecut <br/><span className="text-sm opacity-75">(Red brick)</span></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Brick : Hand Mould<br/><span className="text-sm opacity-75">( Red brick )</span></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Brick : Wirecut<br/><span className="text-sm opacity-75">( Red brick )</span></td>
+                <td className="p-6 text-center text-brand-black/80">Brick : Wirecut<br/><span className="text-sm opacity-75">( Red brick )</span></td>
               </tr>
 
               {/* Tiles */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Tiles : (Flooring & Wall)</td></tr>
+              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Tiles : ( Flooring & Wall )</td></tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">2/2 Vitrified Tiles - Rs .50/-</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">4/2 Vitrified Tiles - Rs .60/-</td>
-                <td className="p-6 text-center text-brand-black/80">4/2 or 5.3/2.9 Vitrified Tiles - Rs .85/-</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Flooring : 2/2<br/>Vitrified Tiles - Rs .50/-</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Flooring : 4/2<br/>Vitrified Tiles - Rs .60/-</td>
+                <td className="p-6 text-center text-brand-black/80">Flooring : 4/2 or 5.3/2.9<br/>Vitrified Tiles - Rs .85/-</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">1/1 Anti-Skid - Rs .40/-</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">1/1 Anti-Skid - Rs .45/-</td>
-                <td className="p-6 text-center text-brand-black/80">2/2 Anti-Skid - Rs .55/-</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Parking : 1/1<br/>Anti-Skid - Rs .40/-</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Parking : 1/1<br/>Anti-Skid - Rs .45/-</td>
+                <td className="p-6 text-center text-brand-black/80">Parking : 2/2<br/>Anti-Skid - Rs .55/-</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Vitrified Tiles - Rs .40/-<br/><span className="text-sm opacity-75">(4 feet above counter top)</span></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Vitrified Tiles - Rs .50/-<br/><span className="text-sm opacity-75">(4 feet above counter top)</span></td>
-                <td className="p-6 text-center text-brand-black/80">Vitrified Tiles - Rs .60/-<br/><span className="text-sm opacity-75">(4 feet above counter top)</span></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Kitchen Wall Tiles :<br/>Vitrified Tiles - Rs .40/-<br/><span className="text-sm opacity-75">( 4 feet above counter top )</span></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Kitchen Wall Tiles :<br/>Vitrified Tiles - Rs .50/-<br/><span className="text-sm opacity-75">( 4 feet above counter top )</span></td>
+                <td className="p-6 text-center text-brand-black/80">Kitchen Wall Tiles :<br/>Vitrified Tiles - Rs .60/-<br/><span className="text-sm opacity-75">( 4 feet above counter top )</span></td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">18mm Granite - Rs .110/-</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">18mm Granite - Rs .140/-</td>
-                <td className="p-6 text-center text-brand-black/80">18mm Granite - Rs .160/-</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Kitchen Counter Top :<br/>18mm Granite - Rs .110/-</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Kitchen Counter Top :<br/>18mm Granite - Rs .140/-</td>
+                <td className="p-6 text-center text-brand-black/80">Kitchen Counter Top :<br/>18mm Granite - Rs .160/-</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Upto 7 feet - Rs.40/-</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Upto 10 feet - Rs.45/-</td>
-                <td className="p-6 text-center text-brand-black/80">Upto 10 feet - Rs.55/-</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Bathroom <span className="text-sm opacity-75">( Wall & Floor )</span> :<br/>Upto 7 feet - Rs.40/-</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Bathroom <span className="text-sm opacity-75">( Wall & Floor )</span> :<br/>Upto 10 feet - Rs.45/-</td>
+                <td className="p-6 text-center text-brand-black/80">Bathroom <span className="text-sm opacity-75">( Wall & Floor )</span> :<br/>Upto 10 feet - Rs.55/-</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">1/1 Tile Matte Finish</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Granite Matte Finish</td>
-                <td className="p-6 text-center text-brand-black/80">Granite Matte Finish</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Staircase : 1/1<br/>Tile Matte Finish</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Staircase :<br/>Granite Matte Finish</td>
+                <td className="p-6 text-center text-brand-black/80">Staircase :<br/>Granite Matte Finish</td>
               </tr>
 
               {/* Plumbing */}
               <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Plumbing</td></tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">PVC / UPVC / CPVC - Arasan & Prince</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">PVC / UPVC / CPVC - Finolex & Trubore</td>
-                <td className="p-6 text-center text-brand-black/80">PVC / UPVC / CPVC - Aashirvad & Finolex</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Pipes :<br/>PVC / UPVC / CPVC -<br/>Arasan & Prince</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Pipes :<br/>PVC / UPVC / CPVC -<br/>Finolex & Trubore</td>
+                <td className="p-6 text-center text-brand-black/80">Pipes :<br/>PVC / UPVC / CPVC -<br/>Aashirvad & Finolex</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Cera <br/><span className="text-sm opacity-75">(Equivalent Brand)</span></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Parryware</td>
-                <td className="p-6 text-center text-brand-black/80">Jaquar</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Bathroom Accessories :<br/>Cera <span className="text-sm opacity-75">( Equivalent Brand )</span></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Bathroom Accessories :<br/>Parryware</td>
+                <td className="p-6 text-center text-brand-black/80">Bathroom Accessories :<br/>Jaquar</td>
               </tr>
 
               {/* Electricals */}
               <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Electricals</td></tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Kundan <br/><span className="text-sm opacity-75">(Equivalent Brand)</span></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Finolex (S)</td>
-                <td className="p-6 text-center text-brand-black/80">Finolex (G)</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Wires:<br/>Kundan<span className="text-sm opacity-75">( Equivalent Brand )</span></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Wires:<br/>Finolex (S)</td>
+                <td className="p-6 text-center text-brand-black/80">Wires:<br/>Finolex (G)</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Goldmedal</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Lisha & Honeywell</td>
-                <td className="p-6 text-center text-brand-black/80">Legrand & Honeywell</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Switches :<br/>Goldmedal</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Switches :<br/>Lisha & Honeywell</td>
+                <td className="p-6 text-center text-brand-black/80">Switches :<br/>Legrand & Honeywell</td>
               </tr>
 
               {/* Doors & Windows */}
               <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Doors & Windows</td></tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">(Ghana) Teak Door With Teak Wood Frame</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">(Nigeria) Teak Door With Teak Wood Frame</td>
-                <td className="p-6 text-center text-brand-black/80">(M.Burma) Teak Door With Teak Wood Frame</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Main Door: (Ghana)<br/>Teak Door With<br/>Teak Wood Frame</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Main Door: (Nigeria)<br/>Teak Door With<br/>Teak Wood Frame</td>
+                <td className="p-6 text-center text-brand-black/80">Main Door: (M.Burma)<br/>Teak Door With<br/>Teak Wood Frame</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Membrane Door With Wood Frame<br/><span className="text-sm opacity-75">(Vembu & Mahogany)</span></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Flush Door With Wood Frame<br/><span className="text-sm opacity-75">(Nigeria Teak)</span></td>
-                <td className="p-6 text-center text-brand-black/80">Flush & HDHMR With Wood Frame<br/><span className="text-sm opacity-75">(Nigeria Teak)</span></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Internal Door:<br/>Membrane Door<br/>With Wood Frame<br/><span className="text-sm opacity-75">(Vembu & Mahogany)</span></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Internal Door:<br/>Flush Door<br/>With Wood Frame<br/><span className="text-sm opacity-75">(Nigeria Teak)</span></td>
+                <td className="p-6 text-center text-brand-black/80">Internal Door:<br/>Flush & HDHMR<br/>With Wood Frame<br/><span className="text-sm opacity-75">(Nigeria Teak)</span></td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">(Vembu & Mahogany)</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">(Nigeria Teak)</td>
-                <td className="p-6 text-center text-brand-black/80">(Nigeria Teak)</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Window Frame :<br/>(Vembu & Mahogany)</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Window Frame :<br/>(Nigeria Teak)</td>
+                <td className="p-6 text-center text-brand-black/80">Window Frame :<br/>(Nigeria Teak)</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">PVC</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">WPC</td>
-                <td className="p-6 text-center text-brand-black/80">WPC</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Bathroom Doors :<br/>PVC</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Bathroom Doors :<br/>WPC</td>
+                <td className="p-6 text-center text-brand-black/80">Bathroom Doors :<br/>WPC</td>
               </tr>
 
               {/* Painting */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Painting : (Asian & Berger)</td></tr>
+              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Painting : ( Asian & Berger )</td></tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat tractor emulsion</li></ul></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat tractor emulsion</li></ul></td>
-                <td className="p-6 text-center text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat Premium emulsion</li></ul></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Interior :</div><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat tractor emulsion</li></ul></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Interior :</div><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat tractor emulsion</li></ul></td>
+                <td className="p-6 text-center text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Interior :</div><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat Premium emulsion</li></ul></td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>1 coat White Wash</li><li>1 coat primer</li><li>2 coat Ace emulsion</li></ul></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>1 coat White Wash</li><li>1 coat primer</li><li>2 coat Ace emulsion</li></ul></td>
-                <td className="p-6 text-center text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>1 coat White Wash</li><li>1 coat primer</li><li>2 coat Apex emulsion</li></ul></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Exterior :</div><ul className="list-disc text-left inline-block pl-4"><li>1 coat White Wash</li><li>1 coat primer</li><li>2 coat Ace emulsion</li></ul></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Exterior :</div><ul className="list-disc text-left inline-block pl-4"><li>1 coat White Wash</li><li>1 coat primer</li><li>2 coat Ace emulsion</li></ul></td>
+                <td className="p-6 text-center text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Exterior :</div><ul className="list-disc text-left inline-block pl-4"><li>1 coat White Wash</li><li>1 coat primer</li><li>2 coat Apex emulsion</li></ul></td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Main Door : Melamine Polish</li><li>Internal Door & Frame : Enamel Paint</li></ul></td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Main Door : Melamine Polish</li><li>Internal Door & Frame : Enamel Paint</li></ul></td>
-                <td className="p-6 text-center text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Main Door : PU Polish</li><li>Internal Door & Frame : Melamine Polish</li></ul></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Doors & Windows :</div><ul className="list-disc text-left inline-block pl-4"><li>Main Door :<br/>Melamine Polish</li><li>Internal Door & Frame :<br/>Enamel Paint</li></ul></td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Doors & Windows :</div><ul className="list-disc text-left inline-block pl-4"><li>Main Door :<br/>Melamine Polish</li><li>Internal Door & Frame :<br/>Enamel Paint</li></ul></td>
+                <td className="p-6 text-center text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Doors & Windows :</div><ul className="list-disc text-left inline-block pl-4"><li>Main Door :<br/>PU Polish</li><li>Internal Door & Frame :<br/>Melamine Polish</li></ul></td>
               </tr>
 
               {/* Other Inclusive */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Other Inclusive</td></tr>
+              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Other Inclusive :</td></tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">1000 Litres</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">1000 Litres</td>
-                <td className="p-6 text-center text-brand-black/80">2000 Litres</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Overhead Tank :<br/>1000 Litres</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Overhead Tank :<br/>1000 Litres</td>
+                <td className="p-6 text-center text-brand-black/80">Overhead Tank :<br/>2000 Litres</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">3 Feet Height</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">3 Feet Height</td>
-                <td className="p-6 text-center text-brand-black/80">3 Feet Height</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Parapet Wall :<br/>3 Feet Height</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Parapet Wall :<br/>3 Feet Height</td>
+                <td className="p-6 text-center text-brand-black/80">Parapet Wall :<br/>3 Feet Height</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">(Terracotta)</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">(White)</td>
-                <td className="p-6 text-center text-brand-black/80">(White)</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Roof Tiles -<br/>(Terracotta)</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Roof Tiles -<br/>(White)</td>
+                <td className="p-6 text-center text-brand-black/80">Roof Tiles -<br/>(White)</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">for main door</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">For Main & Back Door</td>
-                <td className="p-6 text-center text-brand-black/80">For Main & Back Door</td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">MS - Safety Grill Gate<br/>for main door</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">MS - Safety Grill Gate<br/>For Main & Back Door</td>
+                <td className="p-6 text-center text-brand-black/80">MS - Safety Grill Gate<br/>For Main & Back Door</td>
               </tr>
               <tr className="hover:bg-brand-black/5">
-                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Antitermite</td>
-                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Antitermite</td>
-                <td className="p-6 text-center text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Antitermite</li><li>Bitumen Coat</li></ul></td>
+                <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 align-top">Basement : Antitermite</td>
+                <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 align-top">Basement : Antitermite</td>
+                <td className="p-6 text-center text-brand-black/80 align-top">Basement : Antitermite<br/>Bitumen Coat</td>
               </tr>
             </tbody>
           </table>
