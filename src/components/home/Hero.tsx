@@ -116,6 +116,7 @@ export default function Hero() {
           alt="Er. S. Arwin and Er. A. Hariharan — Founders of Buildo"
           width={1800}
           height={1200}
+          sizes="(max-width: 768px) 100vw, 80vw"
           className="object-contain w-auto max-h-[50vh] md:max-h-[100vh]"
           priority
         />

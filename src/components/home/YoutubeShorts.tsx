@@ -57,12 +57,13 @@ export default function YoutubeShorts() {
               className="relative w-full max-w-[320px] sm:w-[320px] aspect-[9/16] bg-brand-black/5 rounded-2xl overflow-hidden shadow-lg"
             >
               {video ? (
-                <iframe
+                  <iframe
                   src={getEmbedUrl(video)}
                   title={`YouTube Shorts ${i + 1}`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
+                  loading="lazy"
                   className="absolute inset-0 w-full h-full"
                 ></iframe>
               ) : (
