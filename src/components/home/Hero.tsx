@@ -117,7 +117,7 @@ export default function Hero() {
           width={1800}
           height={1200}
           sizes="(max-width: 768px) 100vw, 80vw"
-          className="object-contain w-auto max-h-[50vh] md:max-h-[100vh]"
+          className="object-contain w-[110%] sm:w-[90%] md:w-auto h-auto max-h-[50vh] md:max-h-[100vh] scale-110 sm:scale-100 mt-8 md:mt-0"
           priority
         />
       </motion.div>
