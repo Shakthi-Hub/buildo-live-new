@@ -150,8 +150,35 @@ export const projectsData = [
       "https://res.cloudinary.com/cgy78dn7/image/upload/v1786379927/IMG_6668.JPG_csfq5y.jpg"
     ]
   },
-  {
+   {
     id: 6,
+    title: "Mr. Suresh Residence",
+    location: "Uchaparamedu, Madurai",
+    plotSize: "Standard",
+    builtUpArea: "Residential building",
+    year: "2023",
+    category: "Residential Building",
+    description: "Mr. Suresh Residence  in Madurai.",
+    thumbnail: "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515588/IMG_4978.JPG_nlprlx.jpg",
+    slug: "mr-Suresh-Residence",
+    images: [
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515590/IMG_4989.JPG_xeoznr.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515587/IMG_4979.JPG_uk2jl2.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515587/IMG_4984.JPG_gyqdn5.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515588/IMG_4985.JPG_s8ebzz.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515590/IMG_4989.JPG_xeoznr.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515589/IMG_4987.JPG_ndpwcq.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515587/IMG_4982.JPG_aoftbw.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515563/IMG_4995.JPG_o0t8t9.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515562/IMG_4992.JPG_ugmgdv.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515562/IMG_4990.JPG_s283fw.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515564/IMG_4996.JPG_avkmcq.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515587/IMG_4980.JPG_zo0dsm.jpg",
+      "https://res.cloudinary.com/cgy78dn7/image/upload/v1786515589/IMG_4988.JPG_inwf1l.jpg"
+    ]
+  },
+  {
+    id: 7,
     title: "Peacock Salon",
     location: "Kalavasal, Madurai",
     plotSize: "Standard",
@@ -172,7 +199,7 @@ export const projectsData = [
     ]
   },
    {
-    id: 7,
+    id: 8,
     title: "Glamglow Salon",
     location: "Paramathi Velur,Namakkal",
     plotSize: "Standard",
@@ -192,7 +219,7 @@ export const projectsData = [
     ]
   },
    {
-    id: 8,
+    id: 9,
     title: "Bright Salon",
     location: "Aathur, Thoothukudi",
     plotSize: "Basic",
@@ -209,7 +236,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     title: "Mr Aravind Residence",
     location: "Ayapakkam, Chennai",
     plotSize: "Standard",
@@ -225,7 +252,7 @@ export const projectsData = [
     ]
   },
    {
-    id: 10,
+    id: 11,
     title: "Mr Gopi Residence",
     location: "Kolathur, Chennai",
     plotSize: "Standard",
@@ -243,7 +270,7 @@ export const projectsData = [
     ]
   },
     {
-    id: 11,
+    id: 12,
     title: "Mr Girinath Residence",
     location: "Nehru Nagar, Madurai",
     plotSize: "Premium",
@@ -258,7 +285,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 12,
+    id: 13,
     title: "Mr Ameen Residence",
     location: "Ramnad",
     plotSize: "Standard",
@@ -275,7 +302,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 13,
+    id: 14,
     title: "Mr.Thatchina Moorthy Residence",
     location: "Madurai",
     plotSize: "Premium",
