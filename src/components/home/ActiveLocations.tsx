@@ -37,10 +37,32 @@ const regionData = [
     locations: ["Thiruthani"]
   },
   {
-    region: "Other Regions",
-    locations: [
-      "Karaikal", "Thirunelveli", "Tanjavur", "Kumbakonam", "Arupukottai", "Namakkal", "Ramanathapuram"
-    ]
+    region: "Karaikal",
+    locations: ["Thalatheru"]
+  },
+  {
+    region: "Thirunelveli",
+    locations: ["SBI Colony"]
+  },
+  {
+    region: "Tanjavur",
+    locations: ["Palliakragaram"]
+  },
+  {
+    region: "Kumbakonam",
+    locations: ["Kumbakonam"]
+  },
+  {
+    region: "Arupukottai",
+    locations: ["Telephone road"]
+  },
+  {
+    region: "Namakkal",
+    locations: ["Paramathivelure"]
+  },
+  {
+    region: "Ramanathapuram",
+    locations: ["Panaikulam"]
   }
 ];
 
