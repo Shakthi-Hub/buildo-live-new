@@ -19,12 +19,9 @@ export const metadata: Metadata = {
   description: "Architectural Design, Construction, and Interior Design under one roof in Madurai, Tamil Nadu since 2018.",
   keywords: ["Construction Company Madurai", "Architects in Tamil Nadu", "Turnkey Construction", "Interior Design Madurai", "Buildo Architects", "House Construction"],
   icons: {
-    icon: [
-      { url: '/Buildo777.jpg', type: 'image/jpeg' },
-      { url: '/buildo-logo.png', type: 'image/png' },
-    ],
-    shortcut: '/Buildo777.jpg',
-    apple: '/Buildo777.jpg',
+    icon: '/Buildo777.jpg?v=2',
+    shortcut: '/Buildo777.jpg?v=2',
+    apple: '/Buildo777.jpg?v=2',
   },
   openGraph: {
     title: "Buildo | We Design Your Dream",
