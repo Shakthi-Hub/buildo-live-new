@@ -17,14 +17,14 @@ export default function PricingPage() {
             <thead>
               <tr className="bg-brand-black text-brand-white">
                 <th className="p-6 text-xl font-bold text-center border-r border-brand-white/10 w-1/3">Basic<div className="text-brand-orange text-sm font-normal mt-1">₹2400 / sqft</div></th>
-                <th className="p-6 text-xl font-bold text-center border-r border-brand-white/10 w-1/3">
-                  Standard
-                  <div className="text-brand-orange text-sm font-normal mt-1">₹2600 / sqft</div>
-                </th>
-                <th className="p-6 text-xl font-bold text-center w-1/3 bg-brand-orange/10 text-brand-white relative">
+                <th className="p-6 text-xl font-bold text-center border-r border-brand-white/10 w-1/3 bg-brand-orange/10 text-brand-white relative">
                   <span className="absolute top-0 right-0 bg-brand-orange text-brand-black text-[10px] font-bold px-2 py-1 rounded-bl-lg uppercase tracking-wider">Popular</span>
+                  Standard
+                  <div className="text-brand-orange text-sm font-normal mt-1">₹2700 / sqft</div>
+                </th>
+                <th className="p-6 text-xl font-bold text-center w-1/3">
                   Premium
-                  <div className="text-brand-orange text-sm font-normal mt-1">₹2800 / sqft</div>
+                  <div className="text-brand-orange text-sm font-normal mt-1">₹3000 / sqft</div>
                 </th>
               </tr>
             </thead>
@@ -33,7 +33,7 @@ export default function PricingPage() {
               <tr><td colSpan={3} className="bg-brand-black/5 font-semibold p-3 text-center text-brand-black/80 text-sm">Price may vary depending on no.of floors</td></tr>
 
               {/* Design & Drawings */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Design & Drawings</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Design & Drawings</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Architectural Floor Plans</li><li>Elevation</li></ul></td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Architectural Floor Plans</li><li>Elevation</li></ul></td>
@@ -41,7 +41,7 @@ export default function PricingPage() {
               </tr>
               
               {/* Structural Drawings */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Structural Drawings</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Structural Drawings</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Basic Structural Drawing</li></ul></td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><ul className="list-disc text-left inline-block pl-4"><li>Footing / Column / Beam Drawing</li><li>Other Element Detail Drawings</li></ul></td>
@@ -49,7 +49,7 @@ export default function PricingPage() {
               </tr>
 
               {/* Structures */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Structures</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Structures</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Basement Height<br/>Upto 3 Feet</td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Basement Height<br/>Upto 4 Feet</td>
@@ -77,7 +77,7 @@ export default function PricingPage() {
               </tr>
 
               {/* Tiles */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Tiles : ( Flooring & Wall )</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Tiles : ( Flooring & Wall )</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Flooring : 2/2<br/>Vitrified Tiles - Rs .50/-</td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Flooring : 4/2<br/>Vitrified Tiles - Rs .60/-</td>
@@ -110,7 +110,7 @@ export default function PricingPage() {
               </tr>
 
               {/* Plumbing */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Plumbing</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Plumbing</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Pipes :<br/>PVC / UPVC / CPVC -<br/>Arasan & Prince</td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Pipes :<br/>PVC / UPVC / CPVC -<br/>Finolex & Trubore</td>
@@ -123,7 +123,7 @@ export default function PricingPage() {
               </tr>
 
               {/* Electricals */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Electricals</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Electricals</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Wires:<br/>Kundan<span className="text-sm opacity-75">( Equivalent Brand )</span></td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Wires:<br/>Finolex (S)</td>
@@ -136,7 +136,7 @@ export default function PricingPage() {
               </tr>
 
               {/* Doors & Windows */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Doors & Windows</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Doors & Windows</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Main Door: (Ghana)<br/>Teak Door With<br/>Teak Wood Frame</td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Main Door: (Nigeria)<br/>Teak Door With<br/>Teak Wood Frame</td>
@@ -159,7 +159,7 @@ export default function PricingPage() {
               </tr>
 
               {/* Painting */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Painting : ( Asian & Berger )</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Painting : ( Asian & Berger )</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Interior :</div><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat tractor emulsion</li></ul></td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80 text-sm align-top"><div className="font-semibold mb-2">Interior :</div><ul className="list-disc text-left inline-block pl-4"><li>2 coat wall putty</li><li>1 coat primer</li><li>2 coat tractor emulsion</li></ul></td>
@@ -177,7 +177,7 @@ export default function PricingPage() {
               </tr>
 
               {/* Other Inclusive */}
-              <tr><td colSpan={3} className="bg-brand-black/10 font-bold p-4 text-center uppercase tracking-wider text-sm">Other Inclusive :</td></tr>
+              <tr><td colSpan={3} className="bg-[#e39c4a] font-bold p-4 text-center uppercase tracking-wider text-sm text-brand-black">Other Inclusive :</td></tr>
               <tr className="hover:bg-brand-black/5">
                 <td className="p-6 text-center border-x border-brand-black/10 text-brand-black/80">Overhead Tank :<br/>1000 Litres</td>
                 <td className="p-6 text-center border-r border-brand-black/10 text-brand-black/80">Overhead Tank :<br/>1000 Litres</td>
