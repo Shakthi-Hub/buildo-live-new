@@ -34,7 +34,7 @@ export default function PricingTeaser() {
             </div>
             <h3 className="text-2xl font-semibold mb-2">Standard</h3>
             <div className="text-4xl font-bold text-brand-orange mb-6">
-              ₹2600 <span className="text-sm text-brand-white/60 font-normal">/ sqft</span>
+              ₹2700 <span className="text-sm text-brand-white/60 font-normal">/ sqft</span>
             </div>
             <ul className="space-y-4 mb-8 text-brand-white/80">
               <li className="flex items-start"><Check className="text-brand-orange mr-3 shrink-0" size={20}/> Floor Plan & Elevation</li>
@@ -48,7 +48,7 @@ export default function PricingTeaser() {
           <div className="bg-brand-white/5 border border-brand-white/10 p-8 rounded-2xl text-left hover:border-brand-orange/50 transition-colors">
             <h3 className="text-2xl font-semibold mb-2">Premium</h3>
             <div className="text-4xl font-bold text-brand-orange mb-6">
-              ₹2800 <span className="text-sm text-brand-white/60 font-normal">/ sqft</span>
+              ₹3000 <span className="text-sm text-brand-white/60 font-normal">/ sqft</span>
             </div>
             <ul className="space-y-4 mb-8 text-brand-white/80">
               <li className="flex items-start"><Check className="text-brand-orange mr-3 shrink-0" size={20}/> 3D Visualization, Electrical & Plumbing</li>
