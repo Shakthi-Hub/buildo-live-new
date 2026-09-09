@@ -63,6 +63,10 @@ const regionData = [
   {
     region: "Ramanathapuram",
     locations: ["Panaikulam"]
+  },
+  {
+    region: "Kerala",
+    locations: ["Thiruvananthapuram"]
   }
 ];
 
