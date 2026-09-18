@@ -110,7 +110,7 @@ export default function Navbar() {
           >
             <div className="w-full">
               <div className={`flex justify-between items-center ${STICKY_HEIGHT}`}>
-                <div className={`flex-shrink-0 ${LOGO_MARGIN_LEFT}`}>
+                <div className={`flex-shrink-0 mt-0.5 lg:mt-1 ${LOGO_MARGIN_LEFT}`}>
                   <Link href="/">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
