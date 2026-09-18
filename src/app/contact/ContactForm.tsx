@@ -1,8 +1,15 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
+import localFont from 'next/font/local';
+
+const brittanySignature = localFont({
+  src: "../../fonts/BrittanySignature.ttf",
+});
 
 export default function ContactForm() {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -20,9 +27,19 @@ export default function ContactForm() {
 
     const encodedText = encodeURIComponent(text);
     const whatsappUrl = `https://wa.me/919500417217?text=${encodedText}`;
-    
+
     window.open(whatsappUrl, '_blank');
+    setIsSubmitted(true);
   };
+
+  if (isSubmitted) {
+    return (
+      <div className="flex flex-col items-center justify-center text-center py-12">
+        <p className={`${brittanySignature.className} text-6xl sm:text-7xl text-brand-orange`}>Thank You</p>
+        <p className="mt-4 text-brand-black/70">We&apos;ve received your enquiry and will get back to you shortly.</p>
+      </div>
+    );
+  }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">

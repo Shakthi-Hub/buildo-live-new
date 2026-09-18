@@ -1,3 +1,9 @@
+import localFont from "next/font/local";
+
+const brittanySignature = localFont({
+  src: "../../fonts/BrittanySignature.ttf",
+});
+
 export const metadata = {
   title: "Pricing Packages | Buildo",
   description: "Transparent pricing packages for construction in Madurai. Choose from Basic, Standard, and Premium tiers.",
@@ -229,6 +235,10 @@ export default function PricingPage() {
             </p>
           </div>
         </div>
+
+        <p className={`${brittanySignature.className} text-5xl sm:text-6xl md:text-7xl text-brand-orange mt-10 md:mt-16`}>
+          Thank You
+        </p>
       </section>
     </div>
   );
