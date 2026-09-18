@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 
-const brittanySignature = localFont({
-  src: "../../fonts/BrittanySignature.ttf",
+const thankYouFont = localFont({
+  src: "../../fonts/CreattionDemo.otf",
 });
 
 export const metadata = {
@@ -236,7 +236,7 @@ export default function PricingPage() {
           </div>
         </div>
 
-        <p className={`${brittanySignature.className} text-5xl sm:text-6xl md:text-7xl text-brand-orange mt-10 md:mt-16`}>
+        <p className={`${thankYouFont.className} text-5xl sm:text-6xl md:text-7xl text-brand-orange mt-10 md:mt-16`}>
           Thank You
         </p>
       </section>

@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import localFont from 'next/font/local';
 
-const brittanySignature = localFont({
-  src: "../../fonts/BrittanySignature.ttf",
+const thankYouFont = localFont({
+  src: "../../fonts/CreattionDemo.otf",
 });
 
 export default function ContactForm() {
@@ -35,7 +35,7 @@ export default function ContactForm() {
   if (isSubmitted) {
     return (
       <div className="flex flex-col items-center justify-center text-center py-12">
-        <p className={`${brittanySignature.className} text-6xl sm:text-7xl text-brand-orange`}>Thank You</p>
+        <p className={`${thankYouFont.className} text-6xl sm:text-7xl text-brand-orange`}>Thank You</p>
         <p className="mt-4 text-brand-black/70">We&apos;ve received your enquiry and will get back to you shortly.</p>
       </div>
     );
