@@ -1,0 +1,197 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Buildo Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FBF6EC;
+    --surface:#FFFFFF;
+    --surface-2:#F3E8D3;
+    --text:#2A2319;
+    --text-muted:#75695A;
+    --accent:#B8862E;
+    --accent-strong:#8F6318;
+    --border:#E6D8BC;
+    --shadow:0 1px 2px rgba(42,35,25,.06), 0 10px 28px rgba(42,35,25,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#19140E; --surface:#231C14; --surface-2:#2D2417;
+      --text:#F3E9D8; --text-muted:#C4B49C; --accent:#E3A93D; --accent-strong:#F0C46B;
+      --border:#3A2F1E; --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 28px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#19140E; --surface:#231C14; --surface-2:#2D2417;
+    --text:#F3E9D8; --text-muted:#C4B49C; --accent:#E3A93D; --accent-strong:#F0C46B;
+    --border:#3A2F1E; --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 28px rgba(0,0,0,.4);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'Inter',system-ui,-apple-system,Segoe UI,sans-serif;
+    line-height:1.6;
+  }
+  a{ color:var(--accent-strong); text-decoration-color:var(--border); text-underline-offset:2px; }
+  a:hover{ text-decoration-color:var(--accent-strong); }
+
+  .page{ max-width:700px; margin:0 auto; padding-inline:20px; padding-block:44px 72px; }
+
+  .brandbar{ display:flex; align-items:center; gap:12px; margin-bottom:28px; }
+  .mark{
+    width:40px; height:40px; border-radius:10px; flex:none;
+    background:linear-gradient(155deg, var(--accent), var(--accent-strong));
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Fraunces',serif; font-weight:700; font-size:19px; color:#fff;
+    box-shadow:var(--shadow);
+  }
+  .brandtext{ display:flex; flex-direction:column; gap:1px; }
+  .brandtext .name{ font-family:'Fraunces',serif; font-weight:600; font-size:17px; letter-spacing:.01em; }
+  .brandtext .by{ font-size:12px; color:var(--text-muted); }
+
+  h1{
+    font-family:'Fraunces',serif; font-weight:700; font-size:clamp(28px,5vw,38px);
+    line-height:1.12; margin:0 0 10px; text-wrap:balance;
+  }
+  .sub{ color:var(--text-muted); font-size:16px; margin:0 0 36px; max-width:56ch; }
+
+  .contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:44px; }
+  @media (max-width:480px){ .contact-grid{ grid-template-columns:1fr; } }
+  .ccard{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:18px; box-shadow:var(--shadow);
+  }
+  .ccard .k{ font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-muted); margin-bottom:7px; }
+  .ccard .v{ font-size:15px; font-weight:600; }
+  .ccard .v a{ color:var(--text); text-decoration:none; }
+  .ccard .v a:hover{ color:var(--accent-strong); }
+  .ccard .hint{ font-size:12.5px; color:var(--text-muted); margin-top:4px; font-weight:400; }
+
+  section{ margin-bottom:40px; }
+  h2{
+    font-family:'Fraunces',serif; font-weight:600; font-size:21px;
+    margin:0 0 4px; padding-left:14px; border-left:3px solid var(--accent);
+  }
+  .section-note{ margin:4px 0 18px 17px; color:var(--text-muted); font-size:14px; }
+
+  details{
+    background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    padding:0 18px; margin-bottom:10px; overflow:hidden;
+  }
+  summary{
+    list-style:none; cursor:pointer; padding:15px 0; font-weight:600; font-size:15px;
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+  }
+  summary::-webkit-details-marker{ display:none; }
+  summary::after{
+    content:'+'; font-family:'Fraunces',serif; font-size:20px; color:var(--accent-strong);
+    flex:none; transition:transform .15s ease;
+  }
+  details[open] summary::after{ transform:rotate(45deg); }
+  details p{ margin:0 0 16px; color:var(--text); font-size:14.5px; max-width:60ch; }
+  details p + p{ margin-top:-8px; }
+
+  .portals{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:16px 0 4px; }
+  @media (max-width:560px){ .portals{ grid-template-columns:1fr; } }
+  .portal{
+    background:var(--surface-2); border:1px solid var(--border); border-radius:12px; padding:14px 16px;
+  }
+  .portal .t{ font-weight:600; font-size:14px; margin-bottom:4px; }
+  .portal .d{ font-size:13px; color:var(--text-muted); }
+
+  footer{
+    margin-top:52px; padding-top:22px; border-top:1px solid var(--border);
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px;
+    color:var(--text-muted); font-size:13px;
+  }
+  footer a{ color:var(--text-muted); }
+</style>
+
+<div class="page">
+  <div class="brandbar">
+    <div class="mark">B</div>
+    <div class="brandtext">
+      <div class="name">Buildo</div>
+      <div class="by">Manage Projects. Build Trust.</div>
+    </div>
+  </div>
+
+  <h1>Support</h1>
+  <p class="sub">Help with the Buildo Client, Admin and Supervisor apps.</p>
+
+  <div class="contact-grid">
+    <div class="ccard">
+      <div class="k">Email</div>
+      <div class="v"><a href="mailto:buildo1995@gmail.com">buildo1995@gmail.com</a></div>
+      <div class="hint">Best for account, payment or document questions</div>
+    </div>
+    <div class="ccard">
+      <div class="k">Phone</div>
+      <div class="v"><a href="tel:+919500417217">9500417217</a> / <a href="tel:+919080050005">9080050005</a></div>
+      <div class="hint">Mon–Sat, 9:30 AM – 6:30 PM IST</div>
+    </div>
+    <div class="ccard">
+      <div class="k">Office</div>
+      <div class="v" style="font-weight:500;">3/799-2, Mahalakshmi Nagar</div>
+      <div class="hint">Moondrumavadi – Iyer Bungalow Road, Madurai – 625007</div>
+    </div>
+    <div class="ccard">
+      <div class="k">Who we help</div>
+      <div class="v" style="font-weight:500;">Clients, Admins &amp; Supervisors</div>
+      <div class="hint">Any BuildTrack account holder</div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Which app are you using?</h2>
+    <p class="section-note">Support covers all three Buildo apps.</p>
+    <div class="portals">
+      <div class="portal"><div class="t">Client</div><div class="d">Track your project, payments and documents</div></div>
+      <div class="portal"><div class="t">Admin</div><div class="d">Run projects, staff, vendors and finances</div></div>
+      <div class="portal"><div class="t">Supervisor</div><div class="d">Update site progress and project status</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Common questions</h2>
+
+    <details>
+      <summary>I forgot my password / can't log in</summary>
+      <p>Clients and staff are issued a login by their Buildo admin. If you've lost your password, email us at <a href="mailto:buildo1995@gmail.com">buildo1995@gmail.com</a> or call us with your registered phone number, and we'll reset it for you.</p>
+    </details>
+
+    <details>
+      <summary>How do I check my payment history or pending amount?</summary>
+      <p>In the Client app, open <b>Payments</b> from the bottom navigation to see your total, paid and pending amounts, plus a full history with proof of each payment. You'll also get a notification whenever a new payment is recorded.</p>
+    </details>
+
+    <details>
+      <summary>Where do I find my project documents and bills?</summary>
+      <p>Open <b>Documents</b> to view drawings, agreements and site files, or <b>Bills</b> to view and download invoices. Tap any file to preview it, with an option to download.</p>
+    </details>
+
+    <details>
+      <summary>Why haven't I received an update on my project?</summary>
+      <p>Progress updates are posted by your project's admin or supervisor as work is completed. If it's been a while since your last update, reach out to us directly and we'll check in with your project team.</p>
+    </details>
+
+    <details>
+      <summary>How do I update my phone number or email?</summary>
+      <p>Go to <b>Profile &gt; More/Settings</b> in the app, or contact us and we'll update it on your account.</p>
+    </details>
+
+    <details>
+      <summary>How is my data protected?</summary>
+      <p>See our <a id="privacy-link" href="/buildo-privacy-policy.html">Privacy Policy</a> for details on what we collect, how it's used, and your rights.</p>
+    </details>
+  </section>
+
+  <footer>
+    <span>© 2026 Buildo. All rights reserved.</span>
+    <span><a id="privacy-link-2" href="/buildo-privacy-policy.html">Privacy Policy</a></span>
+  </footer>
+</div>
+
+</body></html>
