@@ -1,0 +1,203 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Delete Account – Buildo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FBF6EC;
+    --surface:#FFFFFF;
+    --surface-2:#F3E8D3;
+    --text:#2A2319;
+    --text-muted:#75695A;
+    --accent:#B8862E;
+    --accent-strong:#8F6318;
+    --border:#E6D8BC;
+    --shadow:0 1px 2px rgba(42,35,25,.06), 0 10px 28px rgba(42,35,25,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#19140E; --surface:#231C14; --surface-2:#2D2417;
+      --text:#F3E9D8; --text-muted:#C4B49C; --accent:#E3A93D; --accent-strong:#F0C46B;
+      --border:#3A2F1E; --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 28px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#19140E; --surface:#231C14; --surface-2:#2D2417;
+    --text:#F3E9D8; --text-muted:#C4B49C; --accent:#E3A93D; --accent-strong:#F0C46B;
+    --border:#3A2F1E; --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 28px rgba(0,0,0,.4);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'Inter',system-ui,-apple-system,Segoe UI,sans-serif;
+    line-height:1.6;
+  }
+  a{ color:var(--accent-strong); text-decoration-color:var(--border); text-underline-offset:2px; }
+  a:hover{ text-decoration-color:var(--accent-strong); }
+
+  .page{ max-width:700px; margin:0 auto; padding-inline:20px; padding-block:44px 72px; }
+
+  .brandbar{ display:flex; align-items:center; gap:12px; margin-bottom:28px; }
+  .mark{
+    width:40px; height:40px; border-radius:10px; flex:none;
+    background:linear-gradient(155deg, var(--accent), var(--accent-strong));
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Fraunces',serif; font-weight:700; font-size:19px; color:#fff;
+    box-shadow:var(--shadow);
+  }
+  .brandtext{ display:flex; flex-direction:column; gap:1px; }
+  .brandtext .name{ font-family:'Fraunces',serif; font-weight:600; font-size:17px; letter-spacing:.01em; }
+  .brandtext .by{ font-size:12px; color:var(--text-muted); }
+
+  h1{
+    font-family:'Fraunces',serif; font-weight:700; font-size:clamp(28px,5vw,38px);
+    line-height:1.12; margin:0 0 10px; text-wrap:balance;
+  }
+  .sub{ color:var(--text-muted); font-size:16px; margin:0 0 36px; max-width:58ch; }
+
+  section{ margin-bottom:38px; }
+  h2{
+    font-family:'Fraunces',serif; font-weight:600; font-size:21px;
+    margin:0 0 4px; padding-left:14px; border-left:3px solid var(--accent);
+    display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  }
+  .section-note{ margin:4px 0 16px 17px; color:var(--text-muted); font-size:14px; }
+
+  .tag{
+    display:inline-block; font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase;
+    padding:3px 10px; border-radius:999px; background:var(--surface-2); color:var(--accent-strong);
+  }
+  .tag.sup{ background:#DCEEF9; color:#1C6AA3; }
+  .tag.cli{ background:#DFF3E2; color:#1E7D3A; }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]) .tag.sup{ background:#1E3A4A; color:#8FCDEF; }
+    :root:not([data-theme="light"]) .tag.cli{ background:#1E3A26; color:#8FD6A0; }
+  }
+  :root[data-theme="dark"] .tag.sup{ background:#1E3A4A; color:#8FCDEF; }
+  :root[data-theme="dark"] .tag.cli{ background:#1E3A26; color:#8FD6A0; }
+
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:20px 22px; box-shadow:var(--shadow); margin-top:14px;
+  }
+  .card ol, .card ul{ margin:0; padding-left:20px; }
+  .card li{ margin-bottom:8px; max-width:62ch; }
+  .card li:last-child{ margin-bottom:0; }
+  .step-code{
+    display:inline-block; background:var(--surface-2); border-radius:6px; padding:2px 8px;
+    font-family:ui-monospace,Menlo,Consolas,monospace; font-size:13px; color:var(--text);
+  }
+
+  .info-box{
+    background:var(--surface-2); border:1px solid var(--border); border-radius:12px;
+    padding:14px 18px; margin-top:14px; font-size:14px; color:var(--text-muted);
+  }
+  .info-box strong{ color:var(--accent-strong); }
+
+  .datagrid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:14px; }
+  @media (max-width:480px){ .datagrid{ grid-template-columns:1fr; } }
+  .datacard{
+    background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    padding:14px 16px;
+  }
+  .datacard .k{ font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-muted); margin-bottom:5px; }
+  .datacard .v{ font-size:14px; }
+
+  .contactcard{
+    background:var(--surface-2); border:1px solid var(--border); border-radius:14px;
+    padding:20px; display:grid; gap:10px; font-size:14.5px; margin-top:12px;
+  }
+  .contactcard .row{ display:flex; gap:10px; }
+  .contactcard .row .l{ color:var(--text-muted); min-width:70px; flex:none; }
+
+  footer{
+    margin-top:52px; padding-top:22px; border-top:1px solid var(--border);
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px;
+    color:var(--text-muted); font-size:13px;
+  }
+  footer a{ color:var(--text-muted); }
+</style>
+
+<div class="page">
+  <div class="brandbar">
+    <div class="mark">B</div>
+    <div class="brandtext">
+      <div class="name">Buildo</div>
+      <div class="by">Manage Projects. Build Trust.</div>
+    </div>
+  </div>
+
+  <h1>Delete Your Account</h1>
+  <p class="sub">You can request account deletion directly from the Buildo app at any time. This page explains how to do it and what happens to your data.</p>
+
+  <section>
+    <h2><span class="tag">Admin</span> How to delete your Admin account</h2>
+    <div class="card">
+      <ol>
+        <li>Open the Buildo app and sign in as Admin.</li>
+        <li>Tap the <span class="step-code">Profile</span> icon or go to <span class="step-code">Admin Panel</span>.</li>
+        <li>Scroll down and tap <span class="step-code">Delete Account</span>.</li>
+        <li>Confirm the deletion when prompted.</li>
+      </ol>
+      <div class="info-box"><strong>Immediate deletion.</strong> Admin accounts and all associated company data (projects, staff, leads, vendors, quotations, documents) are permanently deleted right away.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="tag sup">Supervisor</span><span class="tag cli">Client</span> How to delete your account</h2>
+    <div class="card">
+      <ol>
+        <li>Open the Buildo app and sign in.</li>
+        <li>Go to <span class="step-code">Profile</span>.</li>
+        <li>Tap <span class="step-code">Delete Account</span> and confirm.</li>
+      </ol>
+      <div class="info-box"><strong>Request sent to Admin.</strong> A deletion request is submitted to your company's Buildo Admin. Your account will be removed within <strong>7 working days</strong>. You will receive an in-app notification once it is processed.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What data is deleted</h2>
+    <p class="section-note">Here's exactly what happens to each type of data once deletion is processed.</p>
+    <div class="datagrid">
+      <div class="datacard">
+        <div class="k">Account credentials</div>
+        <div class="v">Permanently deleted</div>
+      </div>
+      <div class="datacard">
+        <div class="k">Profile information</div>
+        <div class="v">Permanently deleted</div>
+      </div>
+      <div class="datacard">
+        <div class="k">Projects, payments, documents</div>
+        <div class="v">Deleted with the account (Admin); transferred to Admin (Supervisor/Client)</div>
+      </div>
+      <div class="datacard">
+        <div class="k">Uploaded photos &amp; files</div>
+        <div class="v">Permanently deleted from the server</div>
+      </div>
+      <div class="datacard">
+        <div class="k">Push notification tokens</div>
+        <div class="v">Permanently deleted</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Need help?</h2>
+    <p class="section-note">If you are unable to delete your account from within the app, contact us and we will process your request manually within 7 working days.</p>
+    <div class="contactcard">
+      <div class="row"><span class="l">Email</span><span><a href="mailto:buildo1995@gmail.com">buildo1995@gmail.com</a></span></div>
+      <div class="row"><span class="l">Support</span><span><a href="/buildo-support.html">Buildo Support</a></span></div>
+      <div class="row"><span class="l">Privacy</span><span><a href="/buildo-privacy-policy.html">Privacy Policy</a></span></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Buildo. All rights reserved.</span>
+    <span>Need help instead? See <a href="/buildo-support.html">Buildo Support</a>.</span>
+  </footer>
+</div>
+
+</body></html>
